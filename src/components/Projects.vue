@@ -1,37 +1,37 @@
 <template>
   <div>
-    <h1 class="title">Projects</h1>
     <div class="projects">
 
       <div class="project">
-        <img class="project-logo" src="/static/projects/emoyeni/logo.png">
+        <div class="project-background" style="background-image: url(/static/projects/emoyeni/logo.png);"></div>
         <h3 class="project-title">Emoyeni</h3>
         <p class="project-description">Send airtime, recharge data, use mobile banking and much much more in the new Emoyeni.</p>
       </div>
 
       <div class="project">
-        <img class="project-logo" src="/static/projects/emoyeni/logo.png">
+        <div class="project-background" style="background-image: url(/static/projects/waterford/site.png);"></div>
+        <h3 class="project-title">Waterford.sz</h3>
+        <p class="project-description">The official website for Waterford Kamhlaba UWCSA</p>
+      </div>
+
+      <div class="project">
+        <div class="project-background" style="background-image: url(/static/projects/emoyeni/logo.png);"></div>
         <h3 class="project-title">Emoyeni</h3>
         <p class="project-description">Send airtime, recharge data, use mobile banking and much much more in the new Emoyeni.</p>
       </div>
 
       <div class="project">
-        <img class="project-logo" src="/static/projects/emoyeni/logo.png">
+        <div class="project-background" style="background-image: url(/static/projects/waterford/site.png);"></div>
+        <h3 class="project-title">Waterford.sz</h3>
+        <p class="project-description">The official website for Waterford Kamhlaba UWCSA</p>
+      </div>
+
+      <div class="project">
+        <div class="project-background" style="background-image: url(/static/projects/emoyeni/logo.png);"></div>
         <h3 class="project-title">Emoyeni</h3>
         <p class="project-description">Send airtime, recharge data, use mobile banking and much much more in the new Emoyeni.</p>
       </div>
 
-      <div class="project">
-        <img class="project-logo" src="/static/projects/emoyeni/logo.png">
-        <h3 class="project-title">Emoyeni</h3>
-        <p class="project-description">Send airtime, recharge data, use mobile banking and much much more in the new Emoyeni.</p>
-      </div>
-
-      <div class="project">
-        <img class="project-logo" src="/static/projects/emoyeni/logo.png">
-        <h3 class="project-title">Emoyeni</h3>
-        <p class="project-description">Send airtime, recharge data, use mobile banking and much much more in the new Emoyeni.</p>
-      </div>
 
     </div>
   </div>
@@ -41,7 +41,7 @@
   //import { mapState, mapActions, mapMutations } from 'vuex'
 
   export default {
-    name: 'Projects.vue',
+    name: 'Projects',
     mounted() {
     },
     data() {
@@ -67,16 +67,37 @@
     flex: 1;
 
     margin: 15px;
-    padding: 1em 2em;
-    max-width: 300px;
+    max-width: 400px;
 
     text-align: center;
 
     box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
-    border-radius: 10px;
+    border-radius: 3px;
+  }
+
+  .project-background {
+    transition: background-size 200ms ease-in-out;
+    min-width: 280px;
+    background-size: 100%;
+    background-position: center center;
+    height: 200px;
+  }
+
+  .project-background:hover {
+    background-size: 115%;
   }
 
   .project-logo {
     width: 200px;
+  }
+
+  .project-title {
+    padding: 0 1em;
+    text-align: left;
+  }
+
+  .project-description {
+    padding: 0 1em;
+    text-align: left;
   }
 </style>
