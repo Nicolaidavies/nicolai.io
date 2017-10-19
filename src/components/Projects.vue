@@ -2,52 +2,31 @@
   <div>
     <div class="projects">
 
-      <div class="project">
-        <div class="project-background" style="background-image: url(/static/projects/emoyeni/logo.png);"></div>
-        <h3 class="project-title">Emoyeni</h3>
-        <p class="project-description">Send airtime, recharge data, use mobile banking and much much more in the new Emoyeni.</p>
+      <div class="project" v-for="project in projects" @click="view_project(project.name)">
+        <div class="project-background" :style="{'background-image': `url(/static/projects/${project.name}/${project.image})`}"></div>
+        <h3 class="project-title">{{project.title}}</h3>
+        <p class="project-description">{{project.short_description}}</p>
       </div>
-
-      <div class="project">
-        <div class="project-background" style="background-image: url(/static/projects/waterford/site.png);"></div>
-        <h3 class="project-title">Waterford.sz</h3>
-        <p class="project-description">The official website for Waterford Kamhlaba UWCSA</p>
-      </div>
-
-      <div class="project">
-        <div class="project-background" style="background-image: url(/static/projects/emoyeni/logo.png);"></div>
-        <h3 class="project-title">Emoyeni</h3>
-        <p class="project-description">Send airtime, recharge data, use mobile banking and much much more in the new Emoyeni.</p>
-      </div>
-
-      <div class="project">
-        <div class="project-background" style="background-image: url(/static/projects/waterford/site.png);"></div>
-        <h3 class="project-title">Waterford.sz</h3>
-        <p class="project-description">The official website for Waterford Kamhlaba UWCSA</p>
-      </div>
-
-      <div class="project">
-        <div class="project-background" style="background-image: url(/static/projects/emoyeni/logo.png);"></div>
-        <h3 class="project-title">Emoyeni</h3>
-        <p class="project-description">Send airtime, recharge data, use mobile banking and much much more in the new Emoyeni.</p>
-      </div>
-
 
     </div>
   </div>
 </template>
 
 <script>
-  //import { mapState, mapActions, mapMutations } from 'vuex'
+  import { mapState } from 'vuex'
 
   export default {
     name: 'Projects',
-    mounted() {
+    computed: {
+      ...mapState({
+        projects: (state) => state.projects
+      })
     },
-    data() {
-      return {}
-    },
-    methods: {}
+    methods: {
+      view_project(project_name) {
+        this.$router.push({name: 'project', params: {project_name}})
+      }
+    }
   }
 </script>
 

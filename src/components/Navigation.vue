@@ -1,8 +1,8 @@
 <template>
   <nav>
-    <router-link to="projects">Projects</router-link>
-    <router-link to="/">Home</router-link>
-    <router-link to="resume">Resume</router-link>
+    <router-link to="/projects">Projects</router-link>
+    <router-link to="/" exact>Home</router-link>
+    <router-link to="/resume">Resume</router-link>
   </nav>
 </template>
 
@@ -38,12 +38,12 @@
 </style>
 
 <style>
-  .router-link-exact-active {
+  .router-link-active {
     color: black !important;
     font-size: 34px !important;
   }
 
-  .router-link-exact-active:hover {
+  .router-link-active:hover {
     text-decoration: none !important;
   }
 </style>
