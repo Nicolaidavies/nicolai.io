@@ -5,6 +5,9 @@
       <div class="project" v-for="project in projects" @click="view_project(project.name)">
         <div class="project-background" :style="{'background-image': `url(/static/projects/${project.name}/${project.image})`}"></div>
         <h3 class="project-title">{{project.title}}</h3>
+        <div class="project-tags">
+          <span class="project-tag" v-for="tag in project.tags" :key="tag">{{tag}}</span>
+        </div>
         <p class="project-description">{{project.short_description}}</p>
       </div>
 
@@ -46,12 +49,17 @@
     flex: 1;
 
     margin: 15px;
-    max-width: 400px;
+    /*max-width: 400px;*/
 
     text-align: center;
 
+    transition: box-shadow 200ms ease-in-out;
     box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
     border-radius: 3px;
+  }
+
+  .project:hover {
+    box-shadow: 0 3px 3px rgba(10,10,10,.1), 0 3px 9px 6px rgba(10,10,10,.1);
   }
 
   .project-background {
@@ -63,14 +71,25 @@
   }
 
   .project-background:hover {
-    background-size: 115%;
+    background-size: 105%;
   }
 
-  .project-logo {
-    width: 200px;
+  .project-tags {
+    padding: 0 1.1em;
+    text-align: left;
+  }
+
+  .project-tag {
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 0.25em;
+    text-align: left;
+    font-size: 12px;
   }
 
   .project-title {
+    margin-bottom: 0.5em;
     padding: 0 1em;
     text-align: left;
   }
