@@ -1,7 +1,9 @@
 <template>
   <nav>
     <router-link to="/projects">Projects</router-link>
-    <router-link to="/" exact>Home</router-link>
+    <router-link to="/" exact>
+      <i class="fa fa-home" aria-hidden="true"></i>
+    </router-link>
     <router-link to="/resume">Resume</router-link>
   </nav>
 </template>
@@ -44,6 +46,6 @@
   }
 
   .router-link-active:hover {
-    text-decoration: none !important;
+    /*text-decoration: none !important;*/
   }
 </style>
