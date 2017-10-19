@@ -35,6 +35,13 @@
       Carousel,
       Slide
     },
+    head: {
+      title() {
+        return {
+          inner: `${this.project.title} - Nicolai Davies`
+        }
+      }
+    },
     computed: {
       project() {
         return this.$store.state.projects.find(project => project.name === this.project_name)

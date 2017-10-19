@@ -45,6 +45,13 @@
     name: 'HomePage',
     mounted() {
       new clipboard('.email-paragraph')
+    },
+    head: {
+      title() {
+        return {
+          inner: `Nicolai Davies`
+        }
+      }
     }
   }
 </script>

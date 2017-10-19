@@ -25,6 +25,13 @@
         projects: (state) => state.projects
       })
     },
+    head: {
+      title() {
+        return {
+          inner: `Projects - Nicolai Davies`
+        }
+      }
+    },
     methods: {
       view_project(project_name) {
         this.$router.push({name: 'project', params: {project_name}})

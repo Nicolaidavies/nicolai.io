@@ -13,6 +13,13 @@
     name: 'Contact',
     mounted() {
     },
+    head: {
+      title() {
+        return {
+          inner: `Resume - Nicolai Davies`
+        }
+      }
+    },
     data() {
       return {}
     },
