@@ -90,7 +90,7 @@
     color: white;
     background-color: grey;
     border-radius: 5px;
-    padding: 0.25em;
+    padding: 0.25em 0.35em;
     text-align: left;
     font-size: 12px;
   }
