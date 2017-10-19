@@ -18,7 +18,7 @@
 
 <style scoped>
   nav {
-    padding: 1em 0;
+    padding: 2em 0;
     text-align: center;
     /* Side scrolling menu */
     white-space: nowrap;
@@ -30,7 +30,7 @@
     padding: 0 1em;
     color: #9E9E9E;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.5em;
   }
 
   a:hover {
@@ -42,7 +42,7 @@
 <style>
   .router-link-active {
     color: black !important;
-    font-size: 34px !important;
+    /*font-size: 34px !important;*/
   }
 
   .router-link-active:hover {
