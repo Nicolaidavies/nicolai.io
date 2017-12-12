@@ -49,7 +49,7 @@
     head: {
       title() {
         return {
-          inner: `Nicolai Davies`
+          inner: `Home`
         }
       }
     }

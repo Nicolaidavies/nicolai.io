@@ -28,7 +28,7 @@
     head: {
       title() {
         return {
-          inner: `Projects - Nicolai Davies`
+          inner: `Projects`
         }
       }
     },

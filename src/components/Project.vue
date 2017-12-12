@@ -38,7 +38,7 @@
     head: {
       title() {
         return {
-          inner: `${this.project.title} - Nicolai Davies`
+          inner: `${this.project.title}`
         }
       }
     },
