@@ -22,7 +22,7 @@
     text-align: center;
     /* Side scrolling menu */
     white-space: nowrap;
-    overflow-x: scroll;
+    /*overflow-x: scroll;*/
   }
 
   a {
