@@ -12,10 +12,10 @@
       <h1>{{project.title}}</h1>
       <div class="project-description" v-html="project.description"></div>
 
-      <router-link to="/projects" class="back" active-class="nothing">
+      <a href="javascript:history.go(-1)" class="back" active-class="nothing">
         <i class="fa fa-chevron-left" aria-hidden="true"></i>
         <span>Back</span>
-      </router-link>
+      </a>
 
     </div>
 
@@ -35,14 +35,6 @@
     head() {
       return {
         title: this.project.title
-      }
-    },
-    mounted() {
-      window.scrollTop = 0
-    },
-    methods: {
-      back() {
-        this.$router.push({name: 'projects'})
       }
     }
   }

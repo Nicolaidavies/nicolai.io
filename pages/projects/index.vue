@@ -7,7 +7,7 @@
            @click="view_project(project.name)">
 
         <div class="project-container">
-          <img class="project-image" :src="`/static/projects/${project.name}/${project.image}`">
+          <img class="project-image" :src="`/images/${project.name}/${project.image}`">
 
           <h1>{{project.title}}</h1>
 
@@ -30,20 +30,22 @@
   export default {
     name: 'Projects',
     computed: {
-      ...mapState({
-        projects: (state) => state.projects
-      })
+//      ...mapState({
+//        projects: (state) => state.projects
+//      })
+      projects() {
+        return this.$store.state.projects
+      }
     },
-    head: {
-      title() {
-        return {
-          inner: `Projects`
-        }
+    head() {
+      return {
+        title: 'Projects'
       }
     },
     methods: {
       view_project(project_name) {
-        this.$router.push({name: 'project', params: {project_name}})
+        // TODO: Fix this
+        // this.$router.push({name: 'project', params: {project_name}})
       }
     }
   }
