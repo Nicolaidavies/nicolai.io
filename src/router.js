@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HomePage from 'components/HomePage'
-import Projects from 'components/Projects'
-import Project from 'components/Project'
-import Resume from 'components/Resume'
+import HomePage from './components/FrontPage'
+import Projects from './components/Projects'
+import Project from './components/Project'
+import Resume from './components/Resume'
 
 Vue.use(Router)
 

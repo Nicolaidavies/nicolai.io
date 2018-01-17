@@ -3,9 +3,9 @@
     <header class="header">
       <img class="avatar" src="/static/profile.png">
       <h1 class="title">Nicolai Davies</h1>
-      <h2 class="subtitle">Software developer</h2>
+      <!--<h2 class="subtitle">Software developer</h2>-->
       <p class="paragraph">
-        Something about me shoud go here. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias error iure pariatur sunt voluptates? Debitis delectus deleniti dicta ducimus hic, illum iusto, maxime, nemo officia porro quae quo repellat voluptas.
+        I'm a software developer that develops for anything with a screen.
       </p>
       <p>
       <p class="paragraph email-paragraph" data-clipboard-text="mail@nicolai.io">
@@ -69,7 +69,7 @@
   .subtitle {
     margin-top: 0;
     margin-bottom: 1.5em;
-    font-size: 20px;
+    /*font-size: 20px;*/
     font-weight: 400;
   }
 
