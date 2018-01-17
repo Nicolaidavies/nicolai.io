@@ -7,11 +7,11 @@
           <div class="project-background">
             <img class="project-image" :src="`/static/projects/${project.name}/${project.image}`">
           </div>
-          <h2>{{project.title}}</h2>
+          <h1>{{project.title}}</h1>
 
           <p class="project-description">{{project.short_description}}</p>
 
-          <router-link :to="`/projects/${project.name}`" class="back" active-class="nothing">
+          <router-link :to="`/projects/${project.name}`" class="link" active-class="nothing">
             <span>Read more</span>
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
           </router-link>
@@ -55,13 +55,15 @@
 
   .project {
     flex: 1;
-    padding: 1em 0;
     text-align: center;
   }
 
   .project-container {
+    padding: 4em 0;
+    /*padding-top: 2em;*/
+    /*padding-bottom: 2em;*/
     max-width: 800px;
-    margin: 15px auto;
+    margin: 0 auto;
   }
 
   .project-image {
@@ -78,14 +80,12 @@
     background-color: #fafafa;
   }
 
-  .project-title {
-    margin-bottom: 0.5em;
+  .project-description {
     padding: 0 1em;
     /*text-align: left;*/
   }
 
-  .project-description {
-    padding: 0 1em;
-    /*text-align: left;*/
+  .link {
+    padding-bottom: 1em;
   }
 </style>
