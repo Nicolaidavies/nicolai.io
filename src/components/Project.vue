@@ -43,6 +43,9 @@
         return this.$store.state.projects.find(project => project.name === this.project_name)
       }
     },
+    mounted() {
+      window.scrollTop = 0
+    },
     methods: {
       back() {
         this.$router.push({name: 'projects'})
