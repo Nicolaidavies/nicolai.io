@@ -8,11 +8,16 @@
         I'm a software developer that develops for anything with a screen.
       </p>
       <p>
-      <p class="paragraph email-paragraph" data-clipboard-text="mail@nicolai.io">
+      <p class="paragraph email-paragraph" data-clipboard-text="mail@nicolai.io" @click="handle_copy">
         You can reach me on email:
+      <br>
         <span class="email">mail@nicolai.io</span>
-        <span class="clipboard-button">
+        <span class="clipboard-button" >
           <i class="fa fa-clipboard" aria-hidden="true"></i>
+        </span>
+      <br>
+        <span :class="{copied: true, 'show-copied': show_copied}">
+          copied!
         </span>
       </p>
     </header>
@@ -46,11 +51,24 @@
     mounted() {
       new clipboard('.email-paragraph')
     },
+    data() {
+      return {
+        show_copied: false
+      }
+    },
     head: {
       title() {
         return {
           inner: `Home`
         }
+      }
+    },
+    methods: {
+      handle_copy() {
+        this.show_copied = true
+        setTimeout(() => {
+          this.show_copied = false
+        }, 1000)
       }
     }
   }
@@ -81,6 +99,21 @@
   .clipboard-button {
     transition: opacity 200ms linear;
     opacity: 0;
+  }
+
+  .email-paragraph {
+    position: relative;
+  }
+
+  .copied {
+    transition: opacity 200ms linear;
+    opacity: 0;
+
+    padding-left: 5px;
+  }
+
+  .show-copied {
+    opacity: 1;
   }
 
   .email-paragraph:hover .clipboard-button {
