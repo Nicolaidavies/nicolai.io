@@ -22,6 +22,10 @@
     font-family: -apple-system, "SF Pro Display", BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   }
 
+  html {
+    font-size: 16px;
+  }
+
   body {
     margin: 0;
   }
