@@ -2,11 +2,13 @@
   <div>
     <div class="projects">
 
-      <div v-for="(project, index) in projects" :class="{project: true, 'project-grey-background': index % 2 === 1 }"  @click="view_project(project.name)">
+      <div v-for="(project, index) in projects"
+           :class="{project: true, 'project-grey-background': index % 2 === 1 }"
+           @click="view_project(project.name)">
+
         <div class="project-container">
-          <div class="project-background">
-            <img class="project-image" :src="`/static/projects/${project.name}/${project.image}`">
-          </div>
+          <img class="project-image" :src="`/static/projects/${project.name}/${project.image}`">
+
           <h1>{{project.title}}</h1>
 
           <p class="project-description">{{project.short_description}}</p>
