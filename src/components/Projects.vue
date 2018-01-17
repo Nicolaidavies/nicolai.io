@@ -3,7 +3,9 @@
     <div class="projects">
 
       <div class="project" v-for="project in projects" @click="view_project(project.name)">
-        <div class="project-background" :style="{'background-image': `url(/static/projects/${project.name}/${project.image})`}"></div>
+        <div class="project-background">
+          <img style="width: 100%; margin: 0 auto; display: block;" :src="`/static/projects/${project.name}/${project.image}`">
+        </div>
         <h3 class="project-title">{{project.title}}</h3>
         <div class="project-tags">
           <span class="project-tag" v-for="tag in project.tags" :key="tag">{{tag}}</span>
@@ -48,7 +50,8 @@
   .projects {
     max-width: 800px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
     margin: 0 auto;
   }
 
@@ -61,24 +64,26 @@
     text-align: center;
 
     transition: box-shadow 200ms ease-in-out;
-    box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+    /*box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);*/
     border-radius: 3px;
   }
 
   .project:hover {
-    box-shadow: 0 3px 3px rgba(10,10,10,.1), 0 3px 9px 6px rgba(10,10,10,.1);
+    /*box-shadow: 0 3px 3px rgba(10,10,10,.1), 0 3px 9px 6px rgba(10,10,10,.1);*/
   }
 
   .project-background {
-    transition: background-size 200ms ease-in-out;
+    /*transition: background-size 200ms ease-in-out;*/
     min-width: 280px;
     background-size: 100%;
     background-position: center center;
-    height: 200px;
+    background-repeat: no-repeat;
+    height: 500px;
+    overflow: hidden;
   }
 
   .project-background:hover {
-    background-size: 105%;
+    /*background-size: 105%;*/
   }
 
   .project-tags {
