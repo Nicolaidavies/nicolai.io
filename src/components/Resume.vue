@@ -1,8 +1,48 @@
 <template>
   <div class="resume">
-    <h3>My resume should go here</h3>
-    <p class="email-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus culpa cum cupiditate delectus doloribus ipsum iusto minima minus nesciunt nulla porro quaerat quas, qui quia quidem rem repudiandae veniam voluptate.</p>
-    <!--TODO: @feature have a button appear that copies the email address to the clipboard next to the email-->
+
+    <h2>Work Experience</h2>
+    <h4>Self Employed</h4>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus culpa cum cupiditate delectus doloribus ipsum iusto minima minus nesciunt nulla porro quaerat quas, qui quia quidem rem repudiandae veniam voluptate.
+    </p>
+
+    <h4>CTO & Co-founder at Tipho TaKamhlaba</h4>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus culpa cum cupiditate delectus doloribus ipsum iusto minima minus nesciunt nulla porro quaerat quas, qui quia quidem rem repudiandae veniam voluptate.
+    </p>
+
+    <h4>Online Marketing</h4>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus culpa cum cupiditate delectus doloribus ipsum iusto minima minus nesciunt nulla porro quaerat quas, qui quia quidem rem repudiandae veniam voluptate.
+    </p>
+
+    <h4>Online Marketing</h4>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus culpa cum cupiditate delectus doloribus ipsum iusto minima minus nesciunt nulla porro quaerat quas, qui quia quidem rem repudiandae veniam voluptate.
+    </p>
+
+
+    <h2>Education</h2>
+    <h4>Waterford Kamhlaba</h4>
+    <p>2014 - 2015</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus culpa cum cupiditate delectus doloribus ipsum iusto minima minus nesciunt nulla porro quaerat quas, qui quia quidem rem repudiandae veniam voluptate.
+    </p>
+
+    <h4>Aarhus Købmandsskole</h4>
+    <p>2012 - 2013</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus culpa cum cupiditate delectus doloribus ipsum iusto minima minus nesciunt nulla porro quaerat quas, qui quia quidem rem repudiandae veniam voluptate.
+    </p>
+
+    <h4>Interskolen</h4>
+    <p>2007 - 2012</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus culpa cum cupiditate delectus doloribus ipsum iusto minima minus nesciunt nulla porro quaerat quas, qui quia quidem rem repudiandae veniam voluptate.
+    </p>
+
+
   </div>
 </template>
 
@@ -32,5 +72,9 @@
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+  }
+
+  h4 {
+    margin-bottom: 1.5em;
   }
 </style>
