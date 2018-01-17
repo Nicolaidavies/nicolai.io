@@ -17,5 +17,12 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { color: '#333' }
+  loading: { color: '#333' },
+  modules: [
+    '@nuxtjs/pwa'
+  ],
+  manifest: {
+    name: 'Nicolai Davies',
+    lang: 'en'
+  }
 }
