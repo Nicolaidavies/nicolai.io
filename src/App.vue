@@ -22,6 +22,9 @@
     font-family: -apple-system, "SF Pro Display", BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   }
 
+  body {
+    margin: 0;
+  }
 
   h1 {
     letter-spacing: .008em;
@@ -37,5 +40,21 @@
   p {
     color: #333;
     line-height: 1.52947;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:link,
+  a:visited,
+  a:focus,
+  a:active {
+    color: #0070c9;
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
 </style>

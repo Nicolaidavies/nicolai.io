@@ -4,7 +4,6 @@
     "title": "Waterford",
     "short_description": "The official website for Waterford Kamhlaba UWCSA",
     "image": "1.png",
-    "tags": ["Website"],
     "images": [
       "1.png",
       "2.png",
@@ -16,7 +15,6 @@
     "name": "emoyeni",
     "title": "Emoyeni",
     "short_description": "USSD codes made easy",
-    "tags": ["Mobile App"],
     "image": "3.png",
     "images": [
       "3.png"
@@ -28,7 +26,6 @@
     "title": "Fairstart Foundation Offline Application",
     "short_description": "Offline course application for Mac and Windows",
     "image": "1.png",
-    "tags": ["Desktop Application"],
     "images": [
       "1.png",
       "2.png",

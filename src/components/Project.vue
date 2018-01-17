@@ -12,7 +12,7 @@
       <h2>{{project.title}}</h2>
       <div class="project-description" v-html="project.description"></div>
 
-      <router-link to="/projects" class="back" active-class="nothing">
+      <router-link to="/projects" active-class="nothing">
         <i class="fa fa-chevron-left" aria-hidden="true"></i>
         <span>Back</span>
       </router-link>
@@ -59,7 +59,7 @@
   .project {
     max-width: 800px;
     margin: 0 auto;
-    padding: 0 1em;
+    padding: 1em 1em;
   }
 
   .project-image {

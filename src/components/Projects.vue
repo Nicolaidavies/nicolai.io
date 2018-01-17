@@ -2,15 +2,20 @@
   <div>
     <div class="projects">
 
-      <div class="project" v-for="project in projects" @click="view_project(project.name)">
-        <div class="project-background">
-          <img style="width: 100%; margin: 0 auto; display: block;" :src="`/static/projects/${project.name}/${project.image}`">
+      <div v-for="(project, index) in projects" :class="{project: true, 'project-grey-background': index % 2 === 1 }"  @click="view_project(project.name)">
+        <div class="project-container">
+          <div class="project-background">
+            <img class="project-image" :src="`/static/projects/${project.name}/${project.image}`">
+          </div>
+          <h2>{{project.title}}</h2>
+
+          <p class="project-description">{{project.short_description}}</p>
+
+          <router-link :to="`/projects/${project.name}`" class="back" active-class="nothing">
+            <span>Read more</span>
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </router-link>
         </div>
-        <h3 class="project-title">{{project.title}}</h3>
-        <div class="project-tags">
-          <span class="project-tag" v-for="tag in project.tags" :key="tag">{{tag}}</span>
-        </div>
-        <p class="project-description">{{project.short_description}}</p>
       </div>
 
     </div>
@@ -43,71 +48,44 @@
 </script>
 
 <style scoped>
-  .title {
-    text-align: center;
-  }
-
   .projects {
-    max-width: 800px;
     display: flex;
     flex-direction: column;
-    /*flex-wrap: wrap;*/
-    margin: 0 auto;
   }
 
   .project {
     flex: 1;
-
-    margin: 15px;
-    /*max-width: 400px;*/
-
+    padding: 1em 0;
     text-align: center;
-
-    transition: box-shadow 200ms ease-in-out;
-    /*box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);*/
-    border-radius: 3px;
   }
 
-  .project:hover {
-    /*box-shadow: 0 3px 3px rgba(10,10,10,.1), 0 3px 9px 6px rgba(10,10,10,.1);*/
+  .project-container {
+    max-width: 800px;
+    margin: 15px auto;
+  }
+
+  .project-image {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
   }
 
   .project-background {
-    /*transition: background-size 200ms ease-in-out;*/
-    min-width: 280px;
-    background-size: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 500px;
     overflow: hidden;
   }
 
-  .project-background:hover {
-    /*background-size: 105%;*/
-  }
-
-  .project-tags {
-    padding: 0 1.1em;
-    text-align: left;
-  }
-
-  .project-tag {
-    color: white;
-    background-color: grey;
-    border-radius: 5px;
-    padding: 0.25em 0.35em;
-    text-align: left;
-    font-size: 12px;
+  .project-grey-background {
+    background-color: #fafafa;
   }
 
   .project-title {
     margin-bottom: 0.5em;
     padding: 0 1em;
-    text-align: left;
+    /*text-align: left;*/
   }
 
   .project-description {
     padding: 0 1em;
-    text-align: left;
+    /*text-align: left;*/
   }
 </style>
