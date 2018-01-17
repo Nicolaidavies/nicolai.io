@@ -1,7 +1,7 @@
 <template>
   <div>
     <header class="header">
-      <img class="avatar" src="/profile.png">
+      <img class="avatar" src="/profile.png" alt="Picture of Nicolai Davies">
       <h1 class="title">Nicolai Davies</h1>
       <!--<h2 class="subtitle">Software developer</h2>-->
       <p class="paragraph">

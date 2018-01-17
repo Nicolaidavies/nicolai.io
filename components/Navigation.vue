@@ -33,7 +33,8 @@
 
   .link {
     flex: 1;
-    color: #9E9E9E;
+    /*color: #9E9E9E;*/
+    color: black;
     text-decoration: none;
     font-size: 1.5em;
   }
