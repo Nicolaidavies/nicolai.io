@@ -7,7 +7,6 @@
 <script>
   export default {
     name: 'waterford',
-    components: {Project},
     data() {
       return {}
     },
