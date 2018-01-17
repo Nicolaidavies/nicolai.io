@@ -1,25 +1,22 @@
 <template>
   <div>
 
-
     <Carousel :perPage="1" :autoplay="true">
       <Slide v-for="image in project.images" :key="image">
-        <div class="project-image" :style="{'background-image': `url(/static/projects/${project.name}/${image})`}"></div>
+        <img class="project-image" :src="`/static/projects/${project.name}/${image}`">
       </Slide>
     </Carousel>
 
     <div class="project">
-      <h2>{{project.title}}</h2>
+      <h1>{{project.title}}</h1>
       <div class="project-description" v-html="project.description"></div>
 
-      <router-link to="/projects" active-class="nothing">
+      <router-link to="/projects" class="back" active-class="nothing">
         <i class="fa fa-chevron-left" aria-hidden="true"></i>
         <span>Back</span>
       </router-link>
 
     </div>
-
-
 
   </div>
 </template>
@@ -63,10 +60,9 @@
   }
 
   .project-image {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 50% center;
-    height: 70vh;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
   }
 
   .project-description {
@@ -75,13 +71,6 @@
 
   .back {
     display: block;
-    color: black;
     padding: 2em 0;
-    text-decoration: none;
-  }
-
-  .back:hover {
-    color: #424242;
-    text-decoration: underline;
   }
 </style>
