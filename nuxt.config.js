@@ -11,7 +11,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: '/fonts/font-awesome.css'}
+      { rel: 'stylesheet', href: '/fonts/font-awesome.css', defer: true}
     ]
   },
   /*
