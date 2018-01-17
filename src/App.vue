@@ -4,16 +4,16 @@
 
     <router-view />
 
-    <Footer />
+    <PageFooter />
   </div>
 </template>
 
 <script>
   import Navigation from './components/Navigation.vue'
-  import Footer from './components/Footer.vue'
+  import PageFooter from './components/Footer.vue'
   export default {
     name: 'app',
-    components: {Navigation, Footer}
+    components: {Navigation, PageFooter}
   }
 </script>
 
