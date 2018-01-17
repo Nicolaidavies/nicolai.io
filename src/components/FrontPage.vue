@@ -78,17 +78,11 @@
   .header {
     text-align: center;
     padding: 2em;
+    padding-bottom: 0;
   }
 
   .title {
     margin-bottom: 0.5em;
-  }
-
-  .subtitle {
-    margin-top: 0;
-    margin-bottom: 1.5em;
-    /*font-size: 20px;*/
-    font-weight: 400;
   }
 
   .paragraph {
@@ -126,11 +120,18 @@
   }
 
   .media-links {
-    padding-top: 2em;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
     text-align: center;
+    padding-bottom: 2em;
   }
 
   .media-link {
+    flex: 1;
     font-size: 30px;
     text-decoration: none;
     color: black;
