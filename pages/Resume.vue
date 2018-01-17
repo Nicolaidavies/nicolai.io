@@ -37,10 +37,10 @@
     <h1>Education</h1>
 
     <div class="block">
-    <h3>Waterford Kamhlaba, Swaziland</h3>
+    <h3>Waterford Kamhlaba UWCSA, Swaziland</h3>
     <p>2014 - 2015</p>
     <p>
-      Studied the rigorous International Baccalaureate Diploma Programme (IB) at Waterford.
+      Studied the rigorous International Baccalaureate Diploma Programme (IB) at Waterford as part of a United World Colleges scholarship.
     </p>
     </div>
 

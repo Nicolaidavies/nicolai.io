@@ -1,6 +1,6 @@
 <template>
   <nav class="navigation">
-    <router-link to="/projects" class="link" active-class="active">
+    <router-link to="/allprojects" class="link" active-class="active">
       Projects
     </router-link>
 
