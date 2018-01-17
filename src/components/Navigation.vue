@@ -1,16 +1,20 @@
 <template>
-  <nav>
-    <router-link to="/projects">Projects</router-link>
-    <router-link to="/" exact>
+  <nav class="navigation">
+    <router-link to="/projects" active-class="active">
+      Projects
+    </router-link>
+
+    <router-link to="/" exact active-class="active">
       <i class="fa fa-home" aria-hidden="true"></i>
     </router-link>
-    <router-link to="/resume">Resume</router-link>
+
+    <router-link  to="/resume" active-class="active">
+      Resume
+    </router-link>
   </nav>
 </template>
 
 <script>
-  //import { mapState, mapActions, mapMutations } from 'vuex'
-
   export default {
     name: 'Navigation'
   }
@@ -20,9 +24,10 @@
   nav {
     padding: 2em 0;
     text-align: center;
-    /* Side scrolling menu */
-    white-space: nowrap;
-    /*overflow-x: scroll;*/
+  }
+
+  .active {
+    color: black !important;
   }
 
   a {
@@ -36,16 +41,5 @@
   a:hover {
     color: #424242;
     text-decoration: underline;
-  }
-</style>
-
-<style>
-  .router-link-active {
-    color: black !important;
-    /*font-size: 34px !important;*/
-  }
-
-  .router-link-active:hover {
-    /*text-decoration: none !important;*/
   }
 </style>
