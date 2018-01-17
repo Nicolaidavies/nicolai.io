@@ -4,7 +4,7 @@
       Projects
     </router-link>
 
-    <router-link to="/" exact class="link" active-class="active">
+    <router-link to="/" exact class="link" active-class="active" title="Home">
       <i class="fa fa-home" aria-hidden="true"></i>
     </router-link>
 
