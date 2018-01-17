@@ -25,7 +25,6 @@
 </template>
 
 <script>
-  //import { mapState, mapActions, mapMutations } from 'vuex'
   import {Carousel, Slide} from 'vue-carousel'
 
   export default {
@@ -60,6 +59,7 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 1em 1em;
+    text-align: center;
   }
 
   .project-image {
@@ -70,7 +70,7 @@
   }
 
   .project-description {
-
+    text-align: justify;
   }
 
   .back {
