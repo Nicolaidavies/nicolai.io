@@ -1,11 +1,12 @@
 <template>
   <div>
-
-    <Carousel :perPage="1" :autoplay="true">
-      <Slide v-for="image in project.images" :key="image">
-        <img class="project-image" :src="`/static/projects/${project.name}/${image}`">
-      </Slide>
-    </Carousel>
+    <no-ssr>
+      <Carousel :perPage="1" :autoplay="true">
+        <Slide v-for="image in project.images" :key="image">
+          <img class="project-image" :src="`/images/${project.name}/${image}`">
+        </Slide>
+      </Carousel>
+    </no-ssr>
 
     <div class="project">
       <h1>{{project.title}}</h1>
@@ -26,21 +27,14 @@
 
   export default {
     name: 'project',
-    props: ['project_name'],
+    props: ['project'],
     components: {
       Carousel,
       Slide
     },
-    head: {
-      title() {
-        return {
-          inner: `${this.project.title}`
-        }
-      }
-    },
-    computed: {
-      project() {
-        return this.$store.state.projects.find(project => project.name === this.project_name)
+    head() {
+      return {
+        title: this.project.title
       }
     },
     mounted() {

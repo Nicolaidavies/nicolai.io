@@ -2,7 +2,7 @@
   <div id="app">
     <Navigation />
 
-    <router-view />
+    <nuxt />
 
     <PageFooter />
   </div>

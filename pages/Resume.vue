@@ -66,17 +66,13 @@
 </template>
 
 <script>
-  //import { mapState, mapActions, mapMutations } from 'vuex'
-
   export default {
     name: 'Contact',
     mounted() {
     },
-    head: {
-      title() {
-        return {
-          inner: `Resume`
-        }
+    head() {
+      return {
+        title: 'Resume'
       }
     },
     data() {

@@ -1,7 +1,7 @@
 <template>
   <div>
     <header class="header">
-      <img class="avatar" src="/static/profile.png">
+      <img class="avatar" src="/profile.png">
       <h1 class="title">Nicolai Davies</h1>
       <!--<h2 class="subtitle">Software developer</h2>-->
       <p class="paragraph">
@@ -56,11 +56,9 @@
         show_copied: false
       }
     },
-    head: {
-      title() {
-        return {
-          inner: `Home`
-        }
+    head() {
+      return {
+        title: 'Home'
       }
     },
     methods: {
