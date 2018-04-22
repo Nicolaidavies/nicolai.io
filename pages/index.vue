@@ -5,7 +5,7 @@
       <h1 class="title">Nicolai Davies</h1>
       <!--<h2 class="subtitle">Software developer</h2>-->
       <p class="paragraph">
-        I'm a software developer that develops for anything with a screen.
+        I'm a software developer.
       </p>
       <p>
       <p class="paragraph email-paragraph" data-clipboard-text="mail@nicolai.io" @click="handle_copy">
