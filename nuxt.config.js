@@ -21,6 +21,7 @@ module.exports = {
   modules: [
     '@nuxtjs/pwa'
   ],
+  plugins: [{ src: '~/plugins/localStorage.js', ssr: false }],
   manifest: {
     name: 'Nicolai Davies',
     lang: 'en'
