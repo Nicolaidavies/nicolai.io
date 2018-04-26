@@ -1,10 +1,13 @@
 <template>
-  <div>
+  <div :class="{'box-layout': box_layout}">
+
+    <button style="margin: 0 auto; display: block;" @click="box_layout = !box_layout">Toggle box layout</button>
     <div class="projects">
 
       <div v-for="(project, index) in projects"
-           :class="{project: true, 'project-grey-background': index % 2 === 1 }"
-           @click="view_project(project.name)">
+        :key="index"
+        :class="{project: true, 'project-grey-background': index % 2 === 1 }"
+        @click="view_project(project.name)">
 
         <div class="project-container">
           <img class="project-image" :src="`/images/${project.name}/${project.image}`">
@@ -29,13 +32,15 @@
 
   export default {
     name: 'Projects',
-    computed: {
-//      ...mapState({
-//        projects: (state) => state.projects
-//      })
-      projects() {
-        return this.$store.state.projects
+    data() {
+      return {
+        box_layout: false
       }
+    },
+    computed: {
+     ...mapState({
+       projects: (state) => state.projects
+     })
     },
     head() {
       return {
@@ -92,4 +97,33 @@
   .link {
     padding-bottom: 1em;
   }
+
+  .box-layout .projects {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .box-layout .project {
+    background-color: white !important;
+    min-width: 50%;
+  }
+
+  .box-layout .project-image {
+    height: 300px;
+    width: auto;
+  }
+
+  @media screen and (max-width: 900px) {
+    .box-layout .project {
+      min-width: 100%;
+    }
+
+    .box-layout .project-image {
+      height: auto;
+      width: 100%;
+    }
+  }
+
 </style>
