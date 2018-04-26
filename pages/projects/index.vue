@@ -1,17 +1,17 @@
 <template>
   <div :class="{'box-layout': box_layout}">
 
-    <div class="layout-selector" @click="box_layout = !box_layout">
-      <span class="layout-selector-icon" :class="{'layout-selector-icon-selected': box_layout}">
+    <div class="layout-selector">
+      <span class="layout-selector-icon" :class="{'layout-selector-icon-grey': box_layout}" @click="set_box_layout(false)">
+        <!-- List icon -->
         <i class="fa fa-bars" aria-hidden="true"></i>
       </span>
 
-      <span class="layout-selector-icon" :class="{'layout-selector-icon-selected': !box_layout}">
+      <span class="layout-selector-icon" :class="{'layout-selector-icon-grey': !box_layout}" @click="set_box_layout(true)">
+        <!-- Box icon -->
         <i class="fa fa-th-large" aria-hidden="true"></i>
       </span>
     </div>
-
-    <!-- <button  >Toggle box layout</button> -->
 
     <div class="projects">
 
@@ -43,14 +43,10 @@
 
   export default {
     name: 'Projects',
-    data() {
-      return {
-        box_layout: false
-      }
-    },
     computed: {
      ...mapState({
-       projects: (state) => state.projects
+       projects: (state) => state.projects,
+       box_layout: (state) => state.box_layout
      })
     },
     head() {
@@ -61,6 +57,9 @@
     methods: {
       view_project(project_name) {
         this.$router.push(`/projects/${project_name}`)
+      },
+      set_box_layout(box_layout) {
+        this.$store.commit('set_box_layout', box_layout)
       }
     }
   }
@@ -139,7 +138,7 @@
     cursor: pointer;
   }
 
-  .layout-selector-icon-selected {
+  .layout-selector-icon-grey {
     color: grey;
   }
 
