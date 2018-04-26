@@ -1,7 +1,18 @@
 <template>
   <div :class="{'box-layout': box_layout}">
 
-    <button style="margin: 0 auto; display: block;" @click="box_layout = !box_layout">Toggle box layout</button>
+    <div class="layout-selector" @click="box_layout = !box_layout">
+      <span class="layout-selector-icon" :class="{'layout-selector-icon-selected': box_layout}">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </span>
+
+      <span class="layout-selector-icon" :class="{'layout-selector-icon-selected': !box_layout}">
+        <i class="fa fa-th-large" aria-hidden="true"></i>
+      </span>
+    </div>
+
+    <!-- <button  >Toggle box layout</button> -->
+
     <div class="projects">
 
       <div v-for="(project, index) in projects"
@@ -49,8 +60,7 @@
     },
     methods: {
       view_project(project_name) {
-        // TODO: Fix this
-        // this.$router.push({name: 'project', params: {project_name}})
+        this.$router.push(`/projects/${project_name}`)
       }
     }
   }
@@ -115,7 +125,29 @@
     width: auto;
   }
 
+  .layout-selector {
+    text-align: center;
+  }
+
+  .layout-selector-icon {
+    color: black;
+    font-size: 1.5em;
+    margin: 0.5em;
+  }
+
+  .layout-selector-icon:hover {
+    cursor: pointer;
+  }
+
+  .layout-selector-icon-selected {
+    color: grey;
+  }
+
   @media screen and (max-width: 900px) {
+    .layout-selector {
+      display: none;
+    }
+
     .box-layout .project {
       min-width: 100%;
     }
@@ -125,5 +157,5 @@
       width: 100%;
     }
   }
-
+  
 </style>
