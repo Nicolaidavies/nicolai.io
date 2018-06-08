@@ -19,7 +19,10 @@ module.exports = {
   */
   loading: { color: '#333' },
   modules: [
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-120569763-1'
+    }]
   ],
   plugins: [{ src: '~/plugins/localStorage.js', ssr: false }],
   manifest: {
