@@ -4,61 +4,65 @@
     <h1>Work Experience</h1>
 
     <div class="block">
-    <h3>Self Employed <br> (January 2018 - Today)</h3>
-    <p>
-      Creating websites, mobile applications and desktop applications. Also available as a consultant.
-    </p>
+      <h3>Self Employed</h3>
+      <p>January 2018 - Today</p>
+      <p>
+        Creating websites, mobile applications and desktop applications. Also available as a consultant.
+      </p>
     </div>
 
     <div class="block">
-    <h3>CTO & Co-founder at Tipho TaKamhlaba <br> (December 2015 - December 2017)</h3>
-    <p>
-      Delivering mobile application solutions in Swaziland.
-    </p>
+      <h3>CTO &amp; Co-founder at Tipho TaKamhlaba</h3>
+      <p>December 2015 - December 2017</p>
+      <p>
+        Delivering mobile application solutions in Swaziland.
+      </p>
     </div>
 
     <div class="block">
-    <h3>Online Marketing at Proshop.dk <br> (August 2013 - December 2013)</h3>
-    <p>
-      Working with online marketing for Expert Denmark. Work included making newsletters, banners and online
-      papers with iPaper for Expert.dk, Punkt1.dk and Lysmesteren.dk.
-    </p>
+      <h3>Online Marketing at Proshop.dk</h3>
+      <p>August 2013 - December 2013</p>
+      <p>
+        Working with online marketing for Expert Denmark. Work included making newsletters, banners and online
+        papers with iPaper for Expert.dk, Punkt1.dk and Lysmesteren.dk.
+      </p>
     </div>
 
     <div class="block">
-    <h3>Online Marketing at Proshop.dk <br> (November 2011 - August 2013)</h3>
-    <p>
-      Updating products with new descriptions and pictures. Work also included making of banner ads for online
-      use and other graphical tasks.
-    </p>
+      <h3>Online Marketing at Proshop.dk</h3>
+      <p>November 2011 - August 2013</p>
+      <p>
+        Updating products with new descriptions and pictures. Work also included making of banner ads for online
+        use and other graphical tasks.
+      </p>
     </div>
 
 
     <h1>Education</h1>
 
     <div class="block">
-    <h3>Waterford Kamhlaba UWCSA, Swaziland</h3>
-    <p>2014 - 2015</p>
-    <p>
-      Studied the rigorous International Baccalaureate Diploma Programme (IB) at Waterford as part of a United World Colleges scholarship.
-    </p>
+      <h3>Waterford Kamhlaba UWCSA, Swaziland</h3>
+      <p>2014 - 2015</p>
+      <p>
+        Studied the rigorous International Baccalaureate Diploma Programme (IB) at Waterford as part of a United World Colleges scholarship.
+      </p>
     </div>
 
     <div class="block">
-    <h3>Aarhus Købmandsskole, Denmark</h3>
-    <p>2012 - 2013</p>
-    <p>
-      Studied IT and business management for a year before leaving for Waterford Kamhlaba.
-    </p>
+      <h3>Aarhus Købmandsskole, Denmark</h3>
+      <p>2012 - 2013</p>
+      <p>
+        Studied IT and business management for a year before leaving for Waterford Kamhlaba.
+      </p>
     </div>
 
     <div class="block">
-    <h3>Interskolen, Denmark</h3>
-    <p>2007 - 2012</p>
-    <p>
-      Private school with a strong focus on languages including French, German and English.
-      The class of 2012 finished with the highest national average.
-    </p>
+      <h3>Interskolen, Denmark</h3>
+      <p>2007 - 2012</p>
+      <p>
+        Private school with a strong focus on languages including French, German and English.
+        The class of 2012 finished with the highest national average.
+      </p>
     </div>
 
 
