@@ -2,23 +2,19 @@
   <div>
     <header class="header">
       <img class="avatar" src="/profile.png" alt="Picture of Nicolai Davies">
+
       <h1 class="title">Nicolai Davies</h1>
-      <!--<h2 class="subtitle">Software developer</h2>-->
+
       <p class="paragraph">
         I'm a software developer.
       </p>
-      <p>
-      <p class="paragraph email-paragraph" data-clipboard-text="mail@nicolai.io" @click="handle_copy">
+
+      <p class="paragraph email-paragraph">
         You can reach me on email:
       <br>
-        <span class="email">mail@nicolai.io</span>
-        <span class="clipboard-button" >
-          <i class="fa fa-clipboard" aria-hidden="true"></i>
-        </span>
-      <br>
-        <span :class="{copied: true, 'show-copied': show_copied}">
-          copied!
-        </span>
+      
+      <p class="email">
+        <a href="mailto:mail@nicolai.io">mail@nicolai.io</a>
       </p>
     </header>
     <div class="media-links">
@@ -45,28 +41,11 @@
 </template>
 
 <script>
-  import clipboard from 'clipboard'
   export default {
     name: 'HomePage',
-    mounted() {
-      new clipboard('.email-paragraph')
-    },
-    data() {
-      return {
-        show_copied: false
-      }
-    },
     head() {
       return {
-        title: 'Home'
-      }
-    },
-    methods: {
-      handle_copy() {
-        this.show_copied = true
-        setTimeout(() => {
-          this.show_copied = false
-        }, 1000)
+        title: 'Nicolai Davies'
       }
     }
   }
@@ -88,28 +67,17 @@
     margin: 0 auto;
   }
 
-  .clipboard-button {
-    transition: opacity 200ms linear;
-    opacity: 0;
-  }
-
   .email-paragraph {
-    position: relative;
+    margin-top: 1em;
   }
 
-  .copied {
-    transition: opacity 200ms linear;
-    opacity: 0;
-
-    padding-left: 5px;
+  .email {
+    margin: 0;
+    margin-top: 0.5em;
   }
 
-  .show-copied {
-    opacity: 1;
-  }
-
-  .email-paragraph:hover .clipboard-button {
-    opacity: 1;
+  .email a {
+    color: black;
   }
 
   .avatar {
@@ -119,11 +87,11 @@
 
   .media-links {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 2em auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+  
     text-align: center;
     padding-bottom: 2em;
   }
@@ -131,8 +99,22 @@
   .media-link {
     flex: 1;
     font-size: 30px;
-    text-decoration: none;
     color: black;
     padding: 1em;
+  }
+
+  .media-link:hover, .email a:hover {
+    color: #424242;
+    text-decoration: underline;
+  }
+
+  @media screen and (max-width: 600px) {
+    .media-links {
+      flex-direction: column;
+    }
+
+    .media-link {
+      padding: 0.5em 1em;
+    }
   }
 </style>
