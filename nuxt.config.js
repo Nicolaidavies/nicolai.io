@@ -24,7 +24,10 @@ module.exports = {
       id: 'UA-120569763-1'
     }]
   ],
-  plugins: [{ src: '~/plugins/localStorage.js', ssr: false }],
+  plugins: [
+    { src: '~/plugins/localStorage.js', ssr: false }, 
+    { src: '~/plugins/console.js', ssr: false }
+  ],
   manifest: {
     name: 'Nicolai Davies',
     lang: 'en'
