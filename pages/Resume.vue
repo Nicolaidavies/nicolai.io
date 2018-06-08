@@ -5,7 +5,7 @@
 
     <div class="block">
       <h3>Self Employed</h3>
-      <p>January 2018 - Today</p>
+      <p class="date">January 2018 - Today</p>
       <p>
         Creating websites, mobile applications and desktop applications. Also available as a consultant.
       </p>
@@ -13,7 +13,7 @@
 
     <div class="block">
       <h3>CTO &amp; Co-founder at Tipho TaKamhlaba</h3>
-      <p>December 2015 - December 2017</p>
+      <p class="date">December 2015 - December 2017</p>
       <p>
         Delivering mobile application solutions in Swaziland.
       </p>
@@ -21,7 +21,7 @@
 
     <div class="block">
       <h3>Online Marketing at Proshop.dk</h3>
-      <p>August 2013 - December 2013</p>
+      <p class="date">August 2013 - December 2013</p>
       <p>
         Working with online marketing for Expert Denmark. Work included making newsletters, banners and online
         papers with iPaper for Expert.dk, Punkt1.dk and Lysmesteren.dk.
@@ -29,8 +29,8 @@
     </div>
 
     <div class="block">
-      <h3>Online Marketing at Proshop.dk</h3>
-      <p>November 2011 - August 2013</p>
+      <h3>Online Marketing Assistant at Proshop.dk</h3>
+      <p class="date">November 2011 - August 2013</p>
       <p>
         Updating products with new descriptions and pictures. Work also included making of banner ads for online
         use and other graphical tasks.
@@ -42,7 +42,7 @@
 
     <div class="block">
       <h3>Waterford Kamhlaba UWCSA, Swaziland</h3>
-      <p>2014 - 2015</p>
+      <p class="date">2014 - 2015</p>
       <p>
         Studied the rigorous International Baccalaureate Diploma Programme (IB) at Waterford as part of a United World Colleges scholarship.
       </p>
@@ -50,7 +50,7 @@
 
     <div class="block">
       <h3>Aarhus Købmandsskole, Denmark</h3>
-      <p>2012 - 2013</p>
+      <p class="date">2012 - 2013</p>
       <p>
         Studied IT and business management for a year before leaving for Waterford Kamhlaba.
       </p>
@@ -58,7 +58,7 @@
 
     <div class="block">
       <h3>Interskolen, Denmark</h3>
-      <p>2007 - 2012</p>
+      <p class="date">2007 - 2012</p>
       <p>
         Private school with a strong focus on languages including French, German and English.
         The class of 2012 finished with the highest national average.
@@ -96,6 +96,10 @@
 
   .block {
     margin-bottom: 4em;
+  }
+
+  .date {
+    font-style: italic;
   }
 
 </style>
