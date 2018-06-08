@@ -55,7 +55,8 @@
   }
 
   .project-description {
-    text-align: justify;
+    /* text-align: justify; */
+    text-align: center;
   }
 
   .back {
