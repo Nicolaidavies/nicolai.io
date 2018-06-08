@@ -76,7 +76,7 @@
     },
     head() {
       return {
-        title: 'Resume'
+        title: 'Resume - Nicolai Davies'
       }
     },
     data() {

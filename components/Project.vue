@@ -34,7 +34,7 @@
     },
     head() {
       return {
-        title: this.project.title
+        title: `${this.project.title} - Nicolai Davies`
       }
     }
   }
