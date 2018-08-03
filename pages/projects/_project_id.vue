@@ -3,17 +3,23 @@
 </template>
 
 <script>
-  import Project from '../../components/Project.vue'
-  export default {
-    components: {Project},
-    computed: {
-      project() {
-        return this.$store.state.projects.find(p => p.name === this.$route.params.project_id)
-      }
+import Project from "../../components/Project.vue";
+export default {
+  components: { Project },
+  head() {
+    return {
+      title: `${this.project.title} - Nicolai Davies`
+    };
+  },
+  computed: {
+    project() {
+      return this.$store.state.projects.find(
+        p => p.name === this.$route.params.project_id
+      );
     }
   }
+};
 </script>
 
 <style scoped>
-
 </style>
