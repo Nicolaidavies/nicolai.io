@@ -29,6 +29,14 @@ export default {
   }
 };
 </script>
+<style>
+/** Global CSS **/
+
+::selection {
+  background-color: lightgray;
+}
+
+</style>
 
 <style scoped>
 .header {
