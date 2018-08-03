@@ -5,5 +5,6 @@
 .footer {
   text-align: center;
   font-size: 0.9em;
+  padding: 2em 0;
 }
 </style>
