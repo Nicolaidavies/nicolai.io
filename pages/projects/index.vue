@@ -1,23 +1,11 @@
 <template>
-  <div :class="{'box-layout': box_layout}">
-
-    <div class="layout-selector">
-      <span class="layout-selector-icon" :class="{'layout-selector-icon-grey': box_layout}" @click="set_box_layout(false)">
-        <!-- List icon -->
-        <i class="fa fa-bars" aria-hidden="true"></i>
-      </span>
-
-      <span class="layout-selector-icon" :class="{'layout-selector-icon-grey': !box_layout}" @click="set_box_layout(true)">
-        <!-- Box icon -->
-        <i class="fa fa-th-large" aria-hidden="true"></i>
-      </span>
-    </div>
+  <div>
 
     <div class="projects">
 
       <div v-for="(project, index) in projects"
         :key="index"
-        :class="{project: true, 'project-grey-background': index % 2 === 1 }"
+        class="project"
         @click="view_project(project.name)">
 
         <div class="project-container">
@@ -39,122 +27,88 @@
 </template>
 
 <script>
-  import { mapState } from 'vuex'
+import { mapState } from "vuex";
 
-  export default {
-    name: 'Projects',
-    computed: {
-     ...mapState({
-       projects: (state) => state.projects,
-       box_layout: (state) => state.box_layout
-     })
-    },
-    head() {
-      return {
-        title: 'Projects'
-      }
-    },
-    methods: {
-      view_project(project_name) {
-        this.$router.push(`/projects/${project_name}`)
-      },
-      set_box_layout(box_layout) {
-        this.$store.commit('set_box_layout', box_layout)
-      }
+export default {
+  name: "Projects",
+  computed: {
+    ...mapState({
+      projects: state => state.projects
+    })
+  },
+  head() {
+    return {
+      title: "Projects"
+    };
+  },
+  methods: {
+    view_project(project_name) {
+      this.$router.push(`/projects/${project_name}`);
     }
   }
+};
 </script>
 
 <style scoped>
-  .projects {
-    display: flex;
-    flex-direction: column;
-  }
+.projects {
+  display: flex;
+  flex-direction: column;
+}
 
+.project {
+  flex: 1;
+  text-align: center;
+}
+
+.project-container {
+  padding: 4em 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.project-image {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.project-background {
+  overflow: hidden;
+}
+
+.project-description {
+  padding: 0 1em;
+}
+
+.link {
+  padding-bottom: 1em;
+}
+
+.projects {
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project {
+  background-color: white !important;
+  min-width: 50%;
+}
+
+.project-image {
+  height: 300px;
+  width: auto;
+}
+
+@media screen and (max-width: 900px) {
   .project {
-    flex: 1;
-    text-align: center;
-  }
-
-  .project-container {
-    padding: 4em 0;
-    /*padding-top: 2em;*/
-    /*padding-bottom: 2em;*/
-    max-width: 800px;
-    margin: 0 auto;
+    min-width: 100%;
   }
 
   .project-image {
+    height: auto;
     width: 100%;
-    margin: 0 auto;
-    display: block;
   }
-
-  .project-background {
-    overflow: hidden;
-  }
-
-  .project-grey-background {
-    background-color: #fafafa;
-  }
-
-  .project-description {
-    padding: 0 1em;
-    /*text-align: left;*/
-  }
-
-  .link {
-    padding-bottom: 1em;
-  }
-
-  .box-layout .projects {
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  .box-layout .project {
-    background-color: white !important;
-    min-width: 50%;
-  }
-
-  .box-layout .project-image {
-    height: 300px;
-    width: auto;
-  }
-
-  .layout-selector {
-    text-align: center;
-  }
-
-  .layout-selector-icon {
-    color: black;
-    font-size: 1.5em;
-    margin: 0.5em;
-  }
-
-  .layout-selector-icon:hover {
-    cursor: pointer;
-  }
-
-  .layout-selector-icon-grey {
-    color: grey;
-  }
-
-  @media screen and (max-width: 900px) {
-    .layout-selector {
-      display: none;
-    }
-
-    .box-layout .project {
-      min-width: 100%;
-    }
-
-    .box-layout .project-image {
-      height: auto;
-      width: 100%;
-    }
-  }
-  
+}
 </style>
