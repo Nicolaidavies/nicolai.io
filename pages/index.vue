@@ -4,7 +4,7 @@
       <img class="avatar" src="/profile.png" alt="Picture of Nicolai Davies">
 
       <p class="paragraph title">
-        I'm <b>Nicolai Davies</b>, a software developer working mostly with web and mobile applications. 
+        I'm <b>Nicolai Davies</b>, a software developer working mostly with mobile and web applications. 
       </p>
 
       <p class="paragraph title">
