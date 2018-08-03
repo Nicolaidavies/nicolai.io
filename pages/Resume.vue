@@ -70,36 +70,38 @@
 </template>
 
 <script>
-  export default {
-    name: 'Contact',
-    mounted() {
-    },
-    head() {
-      return {
-        title: 'Resume - Nicolai Davies'
-      }
-    },
-    data() {
-      return {}
-    },
-    methods: {}
-  }
+export default {
+  name: "Contact",
+  mounted() {},
+  head() {
+    return {
+      title: "Resume - Nicolai Davies"
+    };
+  },
+  data() {
+    return {};
+  },
+  methods: {}
+};
 </script>
 
 <style scoped>
-  .resume {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 0 1em;
-  }
+.resume {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 1em;
+}
 
-  .block {
-    margin-bottom: 4em;
-  }
+.block {
+  margin-bottom: 4em;
+}
 
-  .date {
-    font-style: italic;
-  }
+.date {
+  font-style: italic;
+}
 
+p {
+  font-size: 1.1em;
+}
 </style>
