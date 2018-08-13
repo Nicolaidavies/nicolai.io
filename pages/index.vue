@@ -7,20 +7,15 @@
       </div>
 
       <p class="paragraph">
-        
         I'm <b>Nicolai Davies</b>, a software developer specialising in mobile and web applications.
         
         <br><br>
 
-        Right now I'm working on <a href="https://www.disarm.io"><b>DiSARM</b></a>, a malaria intervention tool being used in Southern Africa.
+        Right now I'm working on <a href="https://www.disarm.io"><b>DiSARM</b></a>, a spatial intelligence tool for fighting malaria that is being used in Southern Africa.
 
         <br><br>
 
         Have a project you would like me to work on? Or just want to say hi? Write to me on: <a href="mailto:hi@nicolai.io"><b>hi@nicolai.io</b></a>
-
-        <!-- Get in touch by writing to: 
-        
-        or have a look at my <a href="https://github.com/nicolaidavies"><b>Github</b></a> page. -->
       </p>
 
     </header>
