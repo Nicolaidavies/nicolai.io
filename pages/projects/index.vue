@@ -81,6 +81,7 @@ export default {
 }
 
 .link {
+  color: #43c3e7;
   padding-bottom: 1em;
 }
 

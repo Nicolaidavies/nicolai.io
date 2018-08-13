@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <Navigation />
+    <Navigation  />
 
-    <nuxt />
+    <nuxt class="main"  />
 
-    <PageFooter />
+    <PageFooter  />
   </div>
 </template>
 
@@ -20,6 +20,13 @@
 <style>
   #app {
     font-family: -apple-system, "SF Pro Display", BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .main {
+    flex-grow: 1;
   }
 
   html {
@@ -46,19 +53,20 @@
     line-height: 1.52947;
   }
 
-  a {
-    color: black;
-    text-decoration: none;
-  }
-
+  a,
   a:link,
   a:visited,
   a:focus,
   a:active {
-    color: #0070c9;
+    color: #43c3e7;
+    text-decoration: none;
   }
 
   a:hover {
     text-decoration: underline;
+  }
+
+  ::selection {
+    background-color: lightgray;
   }
 </style>

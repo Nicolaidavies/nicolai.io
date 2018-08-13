@@ -1,18 +1,26 @@
 <template>
   <div>
     <header class="header">
-      <img class="avatar" src="/profile.png" alt="Picture of Nicolai Davies">
 
-      <p class="paragraph title">
-        I'm <b>Nicolai Davies</b>, a software developer working mostly with mobile and web applications. 
-      </p>
+      <div class="avatar-container">
+        <img class="avatar" src="/profile.png" alt="Picture of Nicolai Davies">
+      </div>
 
-      <p class="paragraph title">
+      <p class="paragraph">
         
-        Get in touch by writing to: <a class="link" href="mailto:hi@nicolai.io"><b>hi@nicolai.io</b></a>
+        I'm <b>Nicolai Davies</b>, a software developer specialising in mobile and web applications.
         
-        or have a look at my <a class="link" href="https://github.com/nicolaidavies"><b>Github</b></a> page.
+        <br><br>
 
+        Right now I'm working on <a href="https://www.disarm.io"><b>DiSARM</b></a>, a malaria intervention tool being used in Southern Africa.
+
+        <br><br>
+
+        Have a project you would like me to work on? Or just want to say hi? Write to me on: <a href="mailto:hi@nicolai.io"><b>hi@nicolai.io</b></a>
+
+        <!-- Get in touch by writing to: 
+        
+        or have a look at my <a href="https://github.com/nicolaidavies"><b>Github</b></a> page. -->
       </p>
 
     </header>
@@ -29,39 +37,27 @@ export default {
   }
 };
 </script>
-<style>
-/** Global CSS **/
-
-::selection {
-  background-color: lightgray;
-}
-
-</style>
-
 <style scoped>
+
 .header {
-  text-align: center;
-  padding: 2em;
-  padding-bottom: 0;
+  padding-top: 4em;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .paragraph {
-  max-width: 450px;
-  margin: 1em auto;
+  max-width: 700px;
   font-size: 1.5em;
+  margin: 2em auto;
+  padding: 0 1em;
 }
 
-.link {
-  color: #424242;
-}
-
-.link:hover {
-  color: black;
-  text-decoration: underline;
+.avatar-container {
+  text-align: center;
 }
 
 .avatar {
   border-radius: 50%;
-  width: 200px;
+  width: 250px;
 }
 </style>
