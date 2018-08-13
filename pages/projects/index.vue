@@ -53,6 +53,7 @@ export default {
 .projects {
   display: flex;
   flex-direction: column;
+  padding-top: 1em;
 }
 
 .project {
