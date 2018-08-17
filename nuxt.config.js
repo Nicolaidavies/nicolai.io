@@ -6,12 +6,10 @@ module.exports = {
     title: 'Nicolai Davies',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'google-site-verification', content: 'huDKm3IBMy5SiMUWAqhzqsgUMd59PO--GFMcN3gd8Dw'}
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: '/fonts/font-awesome.css', defer: true}
     ]
   },
   /*

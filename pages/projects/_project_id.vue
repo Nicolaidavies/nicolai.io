@@ -13,7 +13,6 @@
       <div class="project-description" v-html="project.description"></div>
 
       <a href="javascript:history.go(-1)" class="back" active-class="nothing">
-        <i class="fa fa-chevron-left" aria-hidden="true"></i>
         <span>Back</span>
       </a>
 

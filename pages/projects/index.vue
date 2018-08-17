@@ -17,7 +17,6 @@
 
           <router-link :to="`/projects/${project.name}`" class="link" active-class="nothing">
             <span>Read more</span>
-            <i class="fa fa-chevron-right" aria-hidden="true"></i>
           </router-link>
         </div>
       </div>
