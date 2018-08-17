@@ -27,7 +27,10 @@ export default {
   name: "HomePage",
   head() {
     return {
-      title: "Nicolai Davies"
+      title: "Nicolai Davies",
+      meta: [
+        { hid: 'description', name: 'description', content: "I'm Nicolai Davies, a software developer specialising in mobile and web applications." }
+      ]
     };
   }
 };

@@ -9,7 +9,7 @@
         @click="view_project(project.name)">
 
         <div class="project-container">
-          <img class="project-image" :src="`/images/${project.name}/${project.image}`">
+          <img class="project-image" :src="`/images/${project.name}/${project.image}`" :alt="`Image of ${project.name}`">
 
           <h1>{{project.title}}</h1>
 
@@ -38,7 +38,10 @@ export default {
   },
   head() {
     return {
-      title: "Projects - Nicolai Davies"
+      title: "Projects - Nicolai Davies",
+      meta: [
+        { hid: 'description', name: 'description', content: "Take a look at the projects I've been working on." }
+      ]
     };
   },
   methods: {

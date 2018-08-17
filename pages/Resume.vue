@@ -77,7 +77,10 @@ export default {
   mounted() {},
   head() {
     return {
-      title: "Resume - Nicolai Davies"
+      title: "Resume - Nicolai Davies",
+      meta: [
+        { hid: 'description', name: 'description', content: "My resume contains a list of my working experience and education." }
+      ]
     };
   },
   data() {

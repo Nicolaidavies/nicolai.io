@@ -3,7 +3,7 @@
     <no-ssr>
       <Carousel :perPage="1" :autoplay="true">
         <Slide v-for="image in project.images" :key="image">
-          <img class="project-image" :src="`/images/${project.name}/${image}`">
+          <img class="project-image" :src="`/images/${project.name}/${image}`" :alt="`Image of ${project.name}`">
         </Slide>
       </Carousel>
     </no-ssr>
@@ -32,7 +32,10 @@ export default {
     },
   head() {
     return {
-      title: `${this.project.title} - Nicolai Davies`
+      title: `${this.project.title} - Nicolai Davies`,
+      meta: [
+        { hid: 'description', name: 'description', content: this.project.short_description }
+      ]
     };
   },
   computed: {
