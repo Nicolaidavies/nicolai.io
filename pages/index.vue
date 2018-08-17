@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="header">
+    <main class="main">
 
       <div class="avatar-container">
         <img class="avatar" src="/profile.png" alt="Picture of Nicolai Davies">
@@ -18,7 +18,7 @@
         Have a project you would like me to work on? Or just want to say hi? Write to me on: <a href="mailto:hi@nicolai.io"><b>hi@nicolai.io</b></a>
       </p>
 
-    </header>
+    </main>
   </div>
 </template>
 
@@ -37,7 +37,7 @@ export default {
 </script>
 <style scoped>
 
-.header {
+.main {
   padding-top: 4em;
   max-width: 1000px;
   margin: 0 auto;
