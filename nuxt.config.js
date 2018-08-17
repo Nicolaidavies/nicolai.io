@@ -38,6 +38,7 @@ module.exports = {
     lang: 'en'
   },
   sitemap: {
+    hostname: 'https://nicolai.io',
     generate: true,
     routes: [
       '/projects/fairstart',
