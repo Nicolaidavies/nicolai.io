@@ -20,6 +20,7 @@ module.exports = {
   loading: { color: '#333' },
   modules: [
     '@nuxtjs/pwa',
+    '@nuxtjs/sitemap',
     ['@nuxtjs/google-analytics', {
       id: 'UA-120569763-1'
     }],
@@ -35,5 +36,14 @@ module.exports = {
   manifest: {
     name: 'Nicolai Davies',
     lang: 'en'
+  },
+  sitemap: {
+    generate: true,
+    routes: [
+      '/projects/fairstart',
+      '/projects/waterford',
+      '/projects/emoyeni',
+      '/projects/momentjs'
+    ]
   }
 }
