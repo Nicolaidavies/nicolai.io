@@ -1,5 +1,15 @@
 [
   {
+    "name": "disarm",
+    "title": "DiSARM",
+    "short_description": "A spatial intelligence tool, built to enable disease control programs to deliver more effective field campaigns.",
+    "image": "1.png",
+    "images": [
+      "1.png"
+    ],
+    "description": "<p>DiSARM is a spatial intelligence tool, built to enable disease control programs to deliver more effective field campaigns.</p>"
+  },
+  {
     "name": "fairstart",
     "title": "Fairstart Foundation Offline Application",
     "short_description": "Offline course application for Mac and Windows",

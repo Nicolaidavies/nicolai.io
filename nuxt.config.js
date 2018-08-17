@@ -39,6 +39,7 @@ module.exports = {
     hostname: 'https://nicolai.io',
     generate: true,
     routes: [
+      '/projects/disarm',
       '/projects/fairstart',
       '/projects/waterford',
       '/projects/emoyeni',
