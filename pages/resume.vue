@@ -46,7 +46,7 @@
         <h3>Waterford Kamhlaba UWCSA, Swaziland</h3>
         <p class="date">2014 - 2015</p>
         <p>
-          Studied the rigorous International Baccalaureate Diploma Programme (IB) at Waterford as part of a United World Colleges scholarship. <a href="https://uwc.org">Read more about UWC.</a>
+          Studied the rigorous International Baccalaureate Diploma Programme (IB) at Waterford as part of a <a href="https://uwc.org">United World Colleges</a> scholarship.
         </p>
       </div>
 
