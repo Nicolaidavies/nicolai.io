@@ -1,3 +1,6 @@
+const projects = require('./projects.json')
+const routes = projects.map(p => `/projects/${p.name}`)
+
 module.exports = {
   /*
   ** Headers of the page
@@ -38,12 +41,9 @@ module.exports = {
   sitemap: {
     hostname: 'https://nicolai.io',
     generate: true,
-    routes: [
-      '/projects/disarm',
-      '/projects/fairstart',
-      '/projects/waterford',
-      '/projects/emoyeni',
-      '/projects/momentjs'
-    ]
+    routes
+  },
+  generate: {
+    routes
   }
 }
