@@ -1,7 +1,7 @@
 # nicolai.io
 
+My personal website with resume and portfolio.
 
-### Plan
+### Phone screenshots
 
-- Home page
-  - Showcase the latest project
+Create the screenshots using [Mockuphone](https://mockuphone.com/googlepixelreallyblue) and the Pixel blue phone.
