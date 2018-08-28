@@ -3,7 +3,7 @@
     "name": "disarm",
     "title": "DiSARM",
     "short_description": "A spatial intelligence tool, built to enable disease control programs to deliver more effective field campaigns.",
-    "image": "1.png",
+    "image": "index.png",
     "images": [
       "1.png",
       "2.png"
@@ -14,7 +14,7 @@
     "name": "fairstart",
     "title": "Fairstart Foundation Application",
     "short_description": "Offline course application for Mac and Windows.",
-    "image": "1.png",
+    "image": "index.png",
     "images": [
       "1.png",
       "2.png",
@@ -26,7 +26,7 @@
     "name": "waterford",
     "title": "Waterford Kamhlaba",
     "short_description": "The official website for Waterford Kamhlaba UWCSA.",
-    "image": "1.png",
+    "image": "index.png",
     "images": [
       "1.png",
       "2.png",
@@ -38,7 +38,7 @@
     "name": "emoyeni",
     "title": "Emoyeni",
     "short_description": "Using USSD codes in a straight forward and easy way.",
-    "image": "1.png",
+    "image": "index.png",
     "images": [
       "1.png",
       "2.png",
@@ -52,7 +52,7 @@
     "name": "kingsapp",
     "title": "Kings Office App",
     "short_description": "A gift to his Majesty King Mswati III.",
-    "image": "1.png",
+    "image": "index.png",
     "images": [
       "1.png",
       "2.png",
@@ -66,7 +66,7 @@
     "name": "hipnotik",
     "title": "Hipnotik App",
     "short_description": "A mobile app for Swaziland biggest Hip Hop Festival.",
-    "image": "1.png",
+    "image": "index.png",
     "images": [
       "1.png",
       "2.png",
@@ -79,6 +79,6 @@
     "name": "momentjs",
     "title": "moment.js siSwati Translation",
     "short_description": "A siSwati translation for the popular open source library moment.js.",
-    "image": "1.png"
+    "image": "index.png"
   }
 ]
