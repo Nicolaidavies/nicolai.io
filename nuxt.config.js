@@ -2,6 +2,7 @@ const projects = require('./projects.json')
 const routes = projects.map(p => `/projects/${p.name}`)
 
 module.exports = {
+  css: ['/static/main.css'],
   /*
   ** Headers of the page
   */
