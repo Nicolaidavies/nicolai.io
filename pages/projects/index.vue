@@ -4,6 +4,7 @@
     <div class="projects">
 
       <div v-for="(project, index) in projects"
+        v-if="!project.draft"
         :key="index"
         class="project"
         @click="view_project(project.name)">
