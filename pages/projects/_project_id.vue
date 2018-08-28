@@ -12,9 +12,9 @@
       <h1 class="project-title">{{project.title}}</h1>
       <div class="project-description" v-html="project.description"></div>
 
-      <a href="javascript:history.go(-1)" class="back" active-class="nothing">
+      <router-link to="/projects" class="back" active-class="nothing">
         <span>Back</span>
-      </a>
+      </router-link>
 
     </div>
 
