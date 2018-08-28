@@ -13,7 +13,7 @@
   {
     "name": "fairstart",
     "title": "Fairstart Foundation Application",
-    "short_description": "Offline course application for Mac and Windows",
+    "short_description": "Offline course application for Mac and Windows.",
     "image": "1.png",
     "images": [
       "1.png",
@@ -25,7 +25,7 @@
   {
     "name": "waterford",
     "title": "Waterford Kamhlaba",
-    "short_description": "The official website for Waterford Kamhlaba UWCSA",
+    "short_description": "The official website for Waterford Kamhlaba UWCSA.",
     "image": "1.png",
     "images": [
       "1.png",
@@ -51,7 +51,7 @@
   {
     "name": "hipnotik",
     "title": "Hipnotik App",
-    "short_description": "A mobile app for Swaziland biggest Hip Hop Festival",
+    "short_description": "A mobile app for Swaziland biggest Hip Hop Festival.",
     "image": "1.png",
     "images": [
       "1.png",
@@ -64,7 +64,7 @@
   {
     "name": "momentjs",
     "title": "moment.js siSwati Translation",
-    "short_description": "A siSwati translation for the popular open source library moment.js",
+    "short_description": "A siSwati translation for the popular open source library moment.js.",
     "image": "1.png"
   }
 ]
