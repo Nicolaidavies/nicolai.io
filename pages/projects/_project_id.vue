@@ -1,7 +1,7 @@
 <template>
   <div>
     <no-ssr>
-      <Carousel :perPage="1" :autoplay="true">
+      <Carousel :perPage="1" :autoplay="true" class="carousel">
         <Slide v-for="image in project.images" :key="image">
           <img class="project-image" :src="`/images/${project.name}/${image}`" :alt="`Image of ${project.name}`">
         </Slide>
@@ -9,7 +9,7 @@
     </no-ssr>
 
     <div class="project">
-      <h1>{{project.title}}</h1>
+      <h1 class="project-title">{{project.title}}</h1>
       <div class="project-description" v-html="project.description"></div>
 
       <a href="javascript:history.go(-1)" class="back" active-class="nothing">
@@ -26,9 +26,9 @@ import {Carousel, Slide} from 'vue-carousel'
 
 export default {
   components: {
-      Carousel,
-      Slide
-    },
+    Carousel,
+    Slide
+  },
   head() {
     return {
       title: `${this.project.title} - Nicolai Davies`,
@@ -48,10 +48,15 @@ export default {
 </script>
 
 <style scoped>
+  .carousel {
+    margin-top: 1em;
+  }
+
   .project {
-    max-width: 800px;
-    margin: 0 auto;
     padding: 1em 1em;
+  }
+
+  .project-title {
     text-align: center;
   }
 
@@ -62,13 +67,16 @@ export default {
   }
 
   .project-description {
-    /* text-align: justify; */
-    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.1em;
   }
 
   .back {
+    text-align: center;
     display: block;
     padding: 2em 0;
+    font-size: 1.2em;
   }
 
   @media screen and (max-width: 900px) {

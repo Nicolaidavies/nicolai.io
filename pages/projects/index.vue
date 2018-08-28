@@ -9,14 +9,14 @@
         @click="view_project(project.name)">
 
         <div class="project-container">
+          <router-link :to="`/projects/${project.name}`" class="link" active-class="nothing">
           <img class="project-image" :src="`/images/${project.name}/${project.image}`" :alt="`Image of ${project.name}`">
 
-          <h1>{{project.title}}</h1>
+          <h1 class="project-title">{{project.title}}</h1>
 
           <p class="project-description">{{project.short_description}}</p>
 
-          <router-link :to="`/projects/${project.name}`" class="link" active-class="nothing">
-            <span>Read more</span>
+            <!-- <span>Read more</span> -->
           </router-link>
         </div>
       </div>
@@ -64,9 +64,9 @@ export default {
 }
 
 .project-container {
-  padding: 4em 0;
+  padding: 1em 0;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 2em auto;
 }
 
 .project-image {
@@ -81,11 +81,27 @@ export default {
 
 .project-description {
   padding: 0 1em;
+  font-size: 1.1em;
+}
+
+.project-title {
+  transition: all .15s ease;
+}
+
+.project-container:hover .project-title {
+  color: #43c3e7;
+}
+
+.project-container:hover .link {
+  color: #43c3e7;
 }
 
 .link {
-  color: #43c3e7;
-  padding-bottom: 1em;
+  color: black;
+}
+
+.link:hover {
+  text-decoration: none;
 }
 
 .projects {
@@ -108,6 +124,10 @@ export default {
 @media screen and (max-width: 900px) {
   .project {
     min-width: 100%;
+  }
+
+  .project-container {
+    margin: 1em auto;
   }
 
   .project-image {
