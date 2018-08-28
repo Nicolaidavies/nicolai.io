@@ -49,6 +49,19 @@
     "description": "<p>Emoyeni was created out of frustation of using USSD codes. USSD codes are used to recharge prepaid sim cards among other things and look like: *555# or can be as long as *141*3*2*78413521#.</p><p>Emoyeni makes it a lot simpler to use them: it gives the user an interface with actual buttons. With Emoyeni prepaid sim users can recharge airtime, send data to their friends, use mobile banking and much more. </p><p>The app works completely offline and it is even possible to send the app to other users using bluetooth from within the app itself.</p></p>Emoyeni has gone through several iterations, this being the third version.</p><p>During the 2017 MTN Apps Challenge, Emoyeni won a second place. </p><p>Emoyeni has been featured in the local news several times. Read an article by the Times of Swaziland <a href=\"/images/emoyeni/article.jpg\">here</a>.</p> <p>Download Emoyeni on the <a href=\"https://play.google.com/store/apps/details?id=io.nicolai.emoyeni\">Google Play store.</a></p>"
   },
   {
+    "name": "hipnotik",
+    "title": "Hipnotik App",
+    "short_description": "A mobile app for Swaziland biggest Hip Hop Festival",
+    "image": "1.png",
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ],
+    "description": "<p>Hipnotik is Swazilands biggest Hip Hop festival created by a young team of entrepreneurs at Swazijive.</p><p>They needed an app to accompany the festival that matched their brand. The Hipnotik Mobile app was the first mobile app for a festival in Swaziland. </p><p>It has the shows lineup, artist profiles, social media integration and drink prices. </p><p>The first version was created for Hipnotik 2015, it was completely revamped for Hipnotik 2016.</p><p>Download the app on <a href=\"https: //play.google.com/store/apps/details?id=io.nicolai.hipnotik\">Google Play Store</a>.</p>"
+  },
+  {
     "name": "momentjs",
     "title": "moment.js siSwati Translation",
     "short_description": "A siSwati translation for the popular open source library moment.js",
