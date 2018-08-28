@@ -5,9 +5,10 @@
     "short_description": "A spatial intelligence tool, built to enable disease control programs to deliver more effective field campaigns.",
     "image": "1.png",
     "images": [
-      "1.png"
+      "1.png",
+      "2.png"
     ],
-    "description": "<p>DiSARM is a spatial intelligence tool, built to enable disease control programs to deliver more effective field campaigns.</p>"
+    "description": "<p><a href=\"https://disarm.io\">DiSARM</a> is a spatial intelligence tool, built to enable disease control programs to deliver more effective field campaigns. It is currently being used to fight malaria in Botswana, Namibia, Zimbabwe and Swaziland. The project is supported by Bill and Melinda Gates Foundation, Clinton Health Access Initiative and Google.</p><p>There are two teams on the project: a data science team and a software development team. The data science team writes models for predicting things like roof types of buildings, sprayable/unsprayable structures and risk of contracting malaria for a given area. The development team builds software that support these models.</p><p>I work on the development team where we write software to support spray campaigns. The main piece of work has been creating DOUMA (DiSARM Offline Universal Mobile Application).</p><p>DOUMA allow the malaria programs to plan their campaigns ahead of time and gives them estimates on number of structures in the areas they want to spray. After planning, the spray teams can then collect data as they are spraying houses. Once data has been collected, it is all synced to a dashboard that provide the malaria programs with statistics on their spraying effors.</p><p>All of this works offline as the network connection can be quite patchy in the areas they are spraying. The frontend was therefore built as a Progressive Web App with Vue, to take advantage of the offline functionality of service workers. The backend is built with NodeJS and Mongo.</p><p>The code is open source and available on the <a href=\"http://github.com/disarm-platform\">github page</a>.</p>"
   },
   {
     "name": "fairstart",
@@ -19,7 +20,7 @@
       "2.png",
       "3.png"
     ],
-    "description": "<p>Offline course application for Mac and Windows.</p>"
+    "description": "<p>Fairstart Foundation has created a set of courses in early childhoold development primarily for caregivers working at orphanages. The courses are available online at their <a href=\"http: //fairstartfoundation.com/\">website</a>.</p><p>The courses have been taught in more than 20 countries. Some of these countries have very poor internet connections. This means they cannot access the online version. </p> <p>The Fairstart Foundation offline application allow their courses to be taught in these areas. The application has all the content of the online versions: text, images and even videoes. It features a simple design that allows for easy navigation. </p> <p>The first version was made in collaboration with SOS Children's Villages in three language: Kinyarwanda, Swahili and English. </p> <p>The latest version for Greenland was made in collaboration with the Greenland Social authorities. This version features two new languages: Danish and Greenlandic.</p><p> It was recently featured in a danish newspaper, read the article <a href=\"http://e-pages.dk/btmetro/78/html5/11/\">here</a>.</p><p>The application is built with Vue and Electron and is available on Mac, Windows and Linux. </p><p>"
   },
   {
     "name": "waterford",

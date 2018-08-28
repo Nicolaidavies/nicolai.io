@@ -11,7 +11,7 @@
         
         <br><br>
 
-        Right now I'm working on <a href="https://www.disarm.io"><b>DiSARM</b></a>, a spatial intelligence tool for fighting malaria that is being used in Southern Africa.
+        Right now I'm working on <a href="/projects/disarm"><b>DiSARM</b></a>, a spatial intelligence tool for fighting malaria that is being used in Southern Africa.
 
         <br><br>
 
