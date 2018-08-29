@@ -44,7 +44,7 @@
 
       <div class="block">
         <h3>Waterford Kamhlaba UWCSA, Swaziland</h3>
-        <p class="date">2014 - 2015</p>
+        <p class="date">January 2014 - November 2015</p>
         <p>
           Studied the rigorous International Baccalaureate Diploma Programme (IB) at Waterford as part of a <a href="https://uwc.org">United World Colleges</a> scholarship.
         </p>
@@ -52,7 +52,7 @@
 
       <div class="block">
         <h3>Aarhus Købmandsskole, Denmark</h3>
-        <p class="date">2012 - 2013</p>
+        <p class="date">August 2012 - July 2013</p>
         <p>
           Studied IT and business management for a year before leaving for Waterford Kamhlaba.
         </p>
@@ -60,7 +60,7 @@
 
       <div class="block">
         <h3>Interskolen, Denmark</h3>
-        <p class="date">2007 - 2012</p>
+        <p class="date">August 2007 - July 2012</p>
         <p>
           Private school with a strong focus on languages including French, German and English.
         </p>
