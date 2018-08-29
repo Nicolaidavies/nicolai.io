@@ -1,7 +1,7 @@
 <template>
   <div>
     <no-ssr>
-      <Carousel :perPage="1" :autoplay="true" class="carousel">
+      <Carousel :perPage="1" :autoplay="true" :autoplayTimeout="4000" class="carousel">
         <Slide v-for="image in project.images" :key="image">
           <img class="project-image" :src="`/images/${project.name}/${image}`" :alt="`Image of ${project.name}`">
         </Slide>
