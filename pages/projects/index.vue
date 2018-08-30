@@ -38,7 +38,7 @@ export default {
   },
   head() {
     return {
-      title: "Projects - Nicolai Davies",
+      title: "Projects",
       meta: [
         { hid: 'description', name: 'description', content: "Take a look at the projects I've been working on." }
       ]

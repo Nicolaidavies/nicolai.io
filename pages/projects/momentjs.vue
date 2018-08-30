@@ -18,7 +18,15 @@
 
 <script>
   export default {
-    name: 'waterford',
+    name: 'momentjs',
+    head() {
+      return {
+        title: `Momentjs siSwati translation`,
+        meta: [
+          { hid: 'description', name: 'description', content: 'A siSwati translation for the popular open source library moment.js.' }
+        ]
+      };
+    },
     data() {
       return {}
     },

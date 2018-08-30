@@ -77,7 +77,7 @@ export default {
   mounted() {},
   head() {
     return {
-      title: "Resume - Nicolai Davies",
+      title: "Resume",
       meta: [
         { hid: 'description', name: 'description', content: "My resume contains a list of my working experience and education." }
       ]

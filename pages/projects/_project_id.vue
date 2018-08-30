@@ -31,7 +31,7 @@ export default {
   },
   head() {
     return {
-      title: `${this.project.title} - Nicolai Davies`,
+      title: `${this.project.title}`,
       meta: [
         { hid: 'description', name: 'description', content: this.project.short_description }
       ]
