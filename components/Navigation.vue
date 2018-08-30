@@ -17,6 +17,10 @@
       <router-link  to="/resume" class="link" active-class="active">
         Resume
       </router-link>
+
+      <router-link  to="/contact" class="link" active-class="active">
+        Contact
+      </router-link>
     </div>
   </nav>
 </template>
@@ -64,7 +68,7 @@
     text-decoration: underline;
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 500px) {
     .links {
       width: 100%;
       text-align: center;

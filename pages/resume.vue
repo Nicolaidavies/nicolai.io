@@ -73,7 +73,7 @@
 
 <script>
 export default {
-  name: "Contact",
+  name: "Resume",
   mounted() {},
   head() {
     return {
