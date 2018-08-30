@@ -10,7 +10,30 @@
 
     <div class="project">
       <h1 class="project-title">{{project.title}}</h1>
-      <div class="project-description" v-html="project.description"></div>
+
+      <div class="project-container">
+
+        <div class="project-meta">
+          <p>
+            <b>Client:</b> 
+            {{project.client}}
+          </p>
+          <p>
+            <b>My role:</b>
+            {{project.role}}
+          </p>
+          <p>
+            <b>Tools:</b> 
+            {{project.tools}}
+          </p>
+          <p>
+            <b>Year:</b> 
+            {{project.year}}
+          </p>
+        </div>
+
+        <div class="project-description" v-html="project.description"></div>
+      </div>
 
       <router-link to="/projects" class="back" active-class="nothing">
         <span>Back</span>
@@ -61,15 +84,31 @@ export default {
   }
 
   .project-image {
-    width: 60%;
+    max-height: 800px;
     margin: 0 auto;
     display: block;
   }
 
+  .project-container {
+    max-width: 1000px;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .project-meta {
+    max-width: 320px;
+  }
+
   .project-description {
+    width: 100%;
     max-width: 600px;
     margin: 0 auto;
     font-size: 1.1em;
+  }
+
+  .project-description p:first-child {
+    margin-top: 0;
   }
 
   .back {
@@ -80,6 +119,16 @@ export default {
   }
 
   @media screen and (max-width: 900px) {
+    .project-container {
+      flex-direction: column;
+    }
+
+    .project-meta {
+      max-width: 600px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
     .project-image {
       width: 100%;
     }
