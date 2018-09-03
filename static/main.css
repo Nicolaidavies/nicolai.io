@@ -1,59 +1,63 @@
- #app {
-    font-family: -apple-system, "SF Pro Display", BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
+html, body {
+  background-color: white;
+}
 
-  .main {
-    flex-grow: 1;
-  }
+#app {
+  font-family: -apple-system, "SF Pro Display", BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
-  html {
-    font-size: 16px;
-  }
+.main {
+  flex-grow: 1;
+}
 
-  body {
-    margin: 0;
-  }
+html {
+  font-size: 16px;
+}
 
-  h1 {
-    letter-spacing: .008em;
-    color: #333;
-  }
+body {
+  margin: 0;
+}
 
-  h3 {
-    letter-spacing: .008em;
-    color: #333;
-    margin-bottom: 1em;
-  }
+h1 {
+  letter-spacing: .008em;
+  color: #333;
+}
 
-  p {
-    color: #333;
-    line-height: 1.52947;
-  }
+h3 {
+  letter-spacing: .008em;
+  color: #333;
+  margin-bottom: 1em;
+}
 
-  a,
-  a:link,
-  a:visited,
-  a:focus,
-  a:active {
-    color: #43c3e7;
-    text-decoration: none;
-  }
+p {
+  color: #333;
+  line-height: 1.52947;
+}
 
-  a:hover {
-    text-decoration: underline;
-  }
+a,
+a:link,
+a:visited,
+a:focus,
+a:active {
+  color: #43c3e7;
+  text-decoration: none;
+}
 
-  ::selection {
-    background-color: lightgray;
-  }
+a:hover {
+  text-decoration: underline;
+}
 
-  .page-enter-active, .page-leave-active {
-    transition: opacity 0.25s;
-  }
+::selection {
+  background-color: lightgray;
+}
 
-  .page-enter, .page-leave-active {
-    opacity: 0;
-  }
+.page-enter-active, .page-leave-active {
+  transition: opacity 0.25s;
+}
+
+.page-enter, .page-leave-active {
+  opacity: 0;
+}
