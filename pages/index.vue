@@ -56,4 +56,10 @@ export default {
   border-radius: 50%;
   width: 250px;
 }
+
+@media screen and (max-width: 900px) {
+  .main {
+    padding-top: 1em;
+  }
+}
 </style>
