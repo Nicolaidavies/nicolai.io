@@ -2,7 +2,10 @@
   <div class="main">
     <h1>Contact</h1>
     <p class="paragraph">
-      Have a project you would like me to work on? Or just want to say hi? Write to me on: 
+      Have a project you would like me to work on? Or just want to say hi?
+    </p>
+    <p class="paragraph">
+      Write to me on: 
       <no-ssr>
         <a href="mailto:hi@nicolai.io"><b>hi@nicolai.io</b></a>
       </no-ssr>
