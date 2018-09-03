@@ -10,4 +10,4 @@ Create the screenshots using [Mockuphone](https://mockuphone.com/googlepixelreal
 
 **Sizes**
 
-Create an `index` image with a width of `500px`. All other images should have a height of `800px`.
+Create an `index` image with a width of `500px`. All other images should have a height of `1000px`.
