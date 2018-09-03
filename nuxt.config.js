@@ -29,7 +29,8 @@ module.exports = {
     ['nuxt-robots-module', {
       UserAgent: '*',
       Disallow: ''
-    }]
+    }],
+    ['@nuxtjs/moment', ['ss']]
   ],
   plugins: [
     { src: '~/plugins/localStorage.js', ssr: false }, 
