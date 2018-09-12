@@ -46,6 +46,6 @@ module.exports = {
     routes
   },
   generate: {
-    routes
+    routes: [...routes, '404']
   }
 }
