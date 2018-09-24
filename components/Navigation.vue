@@ -2,7 +2,7 @@
   <nav class="navigation">
       
     <router-link to="/" class="icon" title="About">
-      <img style="width: 25px" src="/icon.png" alt="Nicolai Davies' Icon">
+      <img style="width: 25px" src="/icon_small.png" alt="Nicolai Davies' Icon">
     </router-link>
 
     <div class="links">
