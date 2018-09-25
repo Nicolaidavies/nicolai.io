@@ -155,9 +155,8 @@
         <h1>Languages</h1>
 
         <div class="block">
-          <p>
-            I am bilingual Danish-English. I have also studied German, French and siSwati, the local language in Swaziland, at school.
-          </p>
+          <p>I am bilingual Danish-English. </p>
+          <p>I have also studied German, French and siSwati, the local language in Swaziland, at school.</p>
         </div>
       </div>
 
