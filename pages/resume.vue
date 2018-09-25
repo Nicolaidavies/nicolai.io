@@ -97,7 +97,9 @@
           <h3>Cornerstone Help Centre</h3>
           <p class="date">February 2015 - now</p>
           <p>
-            Helping out at a school for disabled children in Swaziland. After moving back to Denmark I've helped establed Cornerstone Team Denmark, where we raise funds for the school in Swaziland.
+            Helping out at a school for disabled children in Swaziland. 
+            After moving back to Denmark I've helped establed Cornerstone Team Denmark, where we raise funds for the school in Swaziland. 
+            Read more about Cornerstone on <a href="https://cornerstoneeducationcentre.org/">the website</a> (in Danish).
           </p>
         </div>
 
