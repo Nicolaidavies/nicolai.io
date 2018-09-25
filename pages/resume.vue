@@ -89,7 +89,7 @@
           <h3>Youth Clubs in Helligåndskirken Aarhus</h3>
           <p class="date">August 2013 - December 2015 and December 2017 - now</p>
           <p>
-            Responsible for planning and participating in the for the youth clubs in the church once a week. I also plan and attend the yearly summer camp. 
+            I plan and attend the yearly summer camp and the weekly youth clubs in the church. 
           </p>
         </div>
         
