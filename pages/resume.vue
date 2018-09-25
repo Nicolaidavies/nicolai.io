@@ -1,8 +1,16 @@
 <template>
   <div class="resume">
-    <div class="container">
+    
+    <div class="resume-print">
+      <h1 class="resume-title">Nicolai Davies</h1>
+      <p>Full-stack developer with a strong focus on mobile and web applications.</p>
+      <p>mail@nicolai.io | +45 31258359 | www.nicolai.io</p>
+    </div>
 
+    <div class="container">
+      
       <div class="section first-section">
+        
         <h1>Work Experience</h1>
 
         <div class="block">
@@ -70,6 +78,40 @@
 
 
     </div>
+
+    <div class="container">
+
+    
+      <div class="section first-section">
+        <h1>Volunteer Experience</h1>
+
+        <div class="block">
+          <h3>Youth Clubs in Helligåndskirken Aarhus</h3>
+          <p class="date">August 2013 - December 2015 and December 2017 - now</p>
+          <p>
+            Responsible for planning and participating in the for the youth clubs in the church once a week. I also plan and attend the yearly summer camp. 
+          </p>
+        </div>
+        
+        <div class="block">
+          <h3>Cornerstone Help Centre</h3>
+          <p class="date">February 2015 - now</p>
+          <p>
+            Helping out at a school for disabled children in Swaziland. After moving back to Denmark I've helped establed Cornerstone Team Denmark, where we raise funds for the school in Swaziland.
+          </p>
+        </div>
+
+        <div class="block">
+          <h3>Technical Board Member Innovators Association of Swaziland</h3>
+          <p class="date">February 2015 - December 2017</p>
+          <p>
+            Responsible for arranging events, hackathons and workshops as well as making websites for the assocation.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
     <div class="container">
 
       
@@ -143,6 +185,10 @@ export default {
   margin: 0 auto;
 }
 
+.resume-print {
+  display: none;
+}
+
 .container {
   
   display: flex;
@@ -180,6 +226,55 @@ p {
 
   .first-section {
     margin-left: 0;
+  }
+}
+
+</style>
+
+<style>
+
+@media print {
+  .navigation {
+    display: none !important;
+  }
+
+  .footer {
+    display: none;
+  }
+  
+  .resume-print {
+    padding: 0 3em;
+    display: block !important;
+  }
+
+  .resume-title {
+    font-size: 2em;
+  }
+
+  .container {
+    /* flex-direction: column; */
+  }
+
+  .first-section {
+    margin: 0 !important;
+  }
+
+  .block {
+    margin-bottom: 1em !important;
+  }  
+
+  h1 {
+    font-size: 1.25em;
+  }
+  
+  h3 {
+    font-size: 1em;
+    margin-bottom: 0.5em !important;
+  }
+
+  p {
+    margin: 0.5em 0 !important;
+    font-size: 0.9em !important;
   }
 }
 </style>
