@@ -14,8 +14,8 @@
         <h1>Work Experience</h1>
 
         <div class="block">
-          <h3>Self Employed</h3>
-          <p class="date">January 2018 - Today</p>
+          <h3>Self-employed</h3>
+          <p class="date">January 2018 - present</p>
           <p>
             Creating websites, mobile applications and desktop applications. Also available as a consultant.
           </p>
@@ -87,7 +87,7 @@
 
         <div class="block">
           <h3>Youth Clubs in Helligåndskirken Aarhus</h3>
-          <p class="date">August 2013 - December 2015 and December 2017 - now</p>
+          <p class="date">August 2013 - December 2015 and December 2017 - present</p>
           <p>
             I plan and attend the yearly summer camp and the weekly youth clubs in the church. 
           </p>
@@ -95,7 +95,7 @@
         
         <div class="block">
           <h3>Cornerstone Help Centre</h3>
-          <p class="date">February 2015 - now</p>
+          <p class="date">February 2015 - present</p>
           <p>
             Helping out at a school for disabled children in Swaziland. 
             After moving back to Denmark I've helped establed Cornerstone Team Denmark, where we raise funds for the school in Swaziland. 

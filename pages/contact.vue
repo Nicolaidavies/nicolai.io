@@ -2,7 +2,7 @@
   <div class="main">
     <h1>Contact</h1>
     <p class="paragraph">
-      Have a project you would like me to work on? Or just want to say hi?
+      Do you have a project that you would like me to work on? Or do you just want to say hi?
     </p>
     <p class="paragraph">
       Write to me on: 
