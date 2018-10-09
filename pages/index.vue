@@ -11,7 +11,7 @@
         
         <br><br>
 
-        Right now I'm working on <a href="/projects/disarm"><b>DiSARM</b></a>, a spatial intelligence tool for fighting malaria that is being used in Southern Africa.
+        Right now I am a consultant for <a href="http://iterator-it.dk/"><b>Iterator IT</b></a> working at <a href="https://trifork.com/"><b>Trifork</b></a>.
 
         <br><br>
       </p>
