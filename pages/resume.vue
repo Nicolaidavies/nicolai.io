@@ -14,10 +14,18 @@
         <h1>Work Experience</h1>
 
         <div class="block">
-          <h3>Self-employed</h3>
-          <p class="date">January 2018 - present</p>
+          <h3>Software developer at Iterator IT</h3>
+          <p class="date">October 2018 - present</p>
           <p>
-            Creating websites, mobile applications and desktop applications. Also available as a consultant.
+            Developing software for Trifork.
+          </p>
+        </div>
+
+        <div class="block">
+          <h3>Self-employed</h3>
+          <p class="date">January 2018 - October 2018</p>
+          <p>
+            Creating websites, mobile applications and desktop applications. Also worked as a consultant.
           </p>
         </div>
 
@@ -85,6 +93,14 @@
       <div class="section first-section">
         <h1>Volunteer Experience</h1>
 
+        <div class="block">
+          <h3>Board Member at ÅUF</h3>
+          <p class="date">February 2018 - present</p>
+          <p>
+            Representing the religious organisations of Aarhus Ungdommens Fællesråd. 
+          </p>
+        </div>
+        
         <div class="block">
           <h3>Youth Clubs in Helligåndskirken Aarhus</h3>
           <p class="date">August 2013 - December 2015 and December 2017 - present</p>
