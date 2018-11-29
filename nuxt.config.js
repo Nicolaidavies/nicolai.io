@@ -38,6 +38,7 @@ module.exports = {
   ],
   manifest: {
     name: 'Nicolai Davies',
+    short_name: 'Nicolai',
     lang: 'en'
   },
   sitemap: {
