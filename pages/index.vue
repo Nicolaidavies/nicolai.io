@@ -11,7 +11,7 @@
         
         <br><br>
 
-        Right now I am a software developer for <a href="http://iterator-it.dk/"><b>Iterator IT</b></a> working at <a href="https://trifork.com/"><b>Trifork</b></a>.
+        Right now I am working on some really cool projects at <a href="https://trifork.com/"><b>Trifork</b></a> .
 
         <br><br>
       </p>

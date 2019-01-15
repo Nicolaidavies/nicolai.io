@@ -14,8 +14,16 @@
         <h1>Work Experience</h1>
 
         <div class="block">
+          <h3>Software developer at Trifork</h3>
+          <p class="date">January 2019 - present</p>
+          <p>
+            Working on a variety of products from consumer mobile apps to software for healthcare.
+          </p>
+        </div>
+
+        <div class="block">
           <h3>Software developer at Iterator IT</h3>
-          <p class="date">October 2018 - present</p>
+          <p class="date">October 2018 - January 2019</p>
           <p>
             Developing software for Trifork.
           </p>
