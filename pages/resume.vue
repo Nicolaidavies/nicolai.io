@@ -102,10 +102,18 @@
         <h1>Volunteer Experience</h1>
 
         <div class="block">
-          <h3>Board Member at ÅUF</h3>
-          <p class="date">February 2018 - present</p>
+          <h3>Treasurer at ÅUF</h3>
+          <p class="date">February 2019 - present</p>
           <p>
-            Representing the religious organisations of Aarhus Ungdommens Fællesråd. 
+            Overseeing the finances at <a href="http://aauf.dk/">Aarhus Ungdommens Fællesråd</a>. 
+          </p>
+        </div>
+
+        <div class="block">
+          <h3>Board Member at ÅUF</h3>
+          <p class="date">February 2018 - February 2019</p>
+          <p>
+            Representing the religious organisations of <a href="http://aauf.dk/">Aarhus Ungdommens Fællesråd</a>. 
           </p>
         </div>
         
