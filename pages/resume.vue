@@ -1,6 +1,6 @@
 <template>
   <div class="resume">
-    
+
     <div class="resume-print">
       <h1 class="resume-title">Nicolai Davies</h1>
       <p>Full-stack developer with a strong focus on mobile and web applications.</p>
@@ -8,9 +8,9 @@
     </div>
 
     <div class="container">
-      
+
       <div class="section first-section">
-        
+
         <h1>Work Experience</h1>
 
         <div class="block">
@@ -97,15 +97,23 @@
 
     <div class="container">
 
-    
+
       <div class="section first-section">
         <h1>Volunteer Experience</h1>
+
+        <div class="block">
+          <h3>Scout leader in KFUM Åbyhøj</h3>
+          <p class="date">September 2019 - present</p>
+          <p>
+            Plan and attend the weekly scout meetings as well the camps in the <a href="http://aabyhoejgruppe.gruppesite.dk/">Åbyhøj group</a>.
+          </p>
+        </div>
 
         <div class="block">
           <h3>Treasurer at ÅUF</h3>
           <p class="date">February 2019 - present</p>
           <p>
-            Overseeing the finances at <a href="http://aauf.dk/">Aarhus Ungdommens Fællesråd</a>. 
+            Overseeing the finances at <a href="http://aauf.dk/">Aarhus Ungdommens Fællesråd</a>.
           </p>
         </div>
 
@@ -113,24 +121,24 @@
           <h3>Board Member at ÅUF</h3>
           <p class="date">February 2018 - February 2019</p>
           <p>
-            Representing the religious organisations of <a href="http://aauf.dk/">Aarhus Ungdommens Fællesråd</a>. 
+            Representing the religious organisations of <a href="http://aauf.dk/">Aarhus Ungdommens Fællesråd</a>.
           </p>
         </div>
-        
+
         <div class="block">
           <h3>Youth Clubs in Helligåndskirken Aarhus</h3>
           <p class="date">August 2013 - December 2015 and December 2017 - present</p>
           <p>
-            I plan and attend the yearly summer camp and the weekly youth clubs in the church. 
+            I plan and attend the yearly summer camp and the weekly youth clubs in the church.
           </p>
         </div>
-        
+
         <div class="block">
           <h3>Cornerstone Help Centre</h3>
           <p class="date">February 2015 - present</p>
           <p>
-            Helping out at a school for disabled children in Swaziland. 
-            After moving back to Denmark I've helped establed Cornerstone Team Denmark, where we raise funds for the school in Swaziland. 
+            Helping out at a school for disabled children in Swaziland.
+            After moving back to Denmark I've helped establed Cornerstone Team Denmark, where we raise funds for the school in Swaziland.
             Read more about Cornerstone on <a href="https://cornerstoneeducationcentre.org/">the website</a> (in Danish).
           </p>
         </div>
@@ -148,7 +156,7 @@
 
     <div class="container">
 
-      
+
 
 
       <div class="section first-section">
@@ -171,7 +179,7 @@
         <div class="block">
           <h3>Mobile</h3>
           <p>
-            React Native, Ionic and Cordova. 
+            React Native, Ionic and Cordova.
           </p>
         </div>
 
@@ -223,7 +231,7 @@ export default {
 }
 
 .container {
-  
+
   display: flex;
 }
 
@@ -274,7 +282,7 @@ p {
   .footer {
     display: none;
   }
-  
+
   .resume-print {
     padding: 0 3em;
     display: block !important;
@@ -294,12 +302,12 @@ p {
 
   .block {
     margin-bottom: 1em !important;
-  }  
+  }
 
   h1 {
     font-size: 1.25em;
   }
-  
+
   h3 {
     font-size: 1em;
     margin-bottom: 0.5em !important;
