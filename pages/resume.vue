@@ -159,7 +159,7 @@
 
 
 
-      <div class="section first-section">
+      <!-- <div class="section first-section">
         <h1>Technologies</h1>
 
         <div class="block">
@@ -189,7 +189,7 @@
             Electron.
           </p>
         </div>
-      </div>
+      </div> -->
 
       <div class="section first-section">
         <h1>Languages</h1>

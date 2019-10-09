@@ -61,3 +61,23 @@ a:hover {
 .page-enter, .page-leave-active {
   opacity: 0;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #444;
+    color: #e4e4e4;
+  }
+  a,
+  a:link,
+  a:visited,
+  a:focus,
+  a:active {
+    color: #41a4e6;
+  }
+  img {
+    filter: grayscale(30%);
+  }
+  h1, h3, p {
+    color: #e4e4e4;
+  }
+}

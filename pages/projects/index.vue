@@ -113,7 +113,7 @@ export default {
 }
 
 .project {
-  background-color: white !important;
+  background-color: white;
   min-width: 50%;
 }
 
@@ -136,4 +136,12 @@ export default {
     width: 100%;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .project {
+    background-color: #444;
+    color: #e4e4e4;
+  }
+}
+
 </style>

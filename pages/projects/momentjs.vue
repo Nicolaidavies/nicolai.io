@@ -19,7 +19,7 @@
 
         <div class="project-meta">
           <p>
-            <b>Client:</b> 
+            <b>Client:</b>
             {{project.client}}
           </p>
           <p>
@@ -27,11 +27,11 @@
             {{project.role}}
           </p>
           <p>
-            <b>Tools:</b> 
+            <b>Tools:</b>
             {{project.tools}}
           </p>
           <p>
-            <b>Year:</b> 
+            <b>Year:</b>
             {{project.year}}
           </p>
         </div>
@@ -107,7 +107,7 @@ export default {
   .toggle {
     text-align: center;
   }
-  
+
   .active {
     color: #43c3e7;
   }
@@ -179,6 +179,12 @@ export default {
       max-width: 600px;
       width: 100%;
       margin: 0 auto;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .active, .option:hover {
+      color: #41a4e6;
     }
   }
 </style>

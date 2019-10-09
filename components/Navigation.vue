@@ -1,6 +1,6 @@
 <template>
   <nav class="navigation">
-      
+
     <router-link to="/" class="icon" title="About">
       <img style="width: 25px" src="/icon_small.png" alt="Nicolai Davies' Icon">
     </router-link>
@@ -36,7 +36,7 @@
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
-    
+
     padding: 1em 0;
     box-shadow: 0 2px 0 0 #f5f5f5;
 
@@ -59,11 +59,11 @@
     margin: 0 1em;
   }
 
-  .link:hover, 
+  .link:hover,
   .link.active {
-    color: #43c3e7;
+    color: #41a4e6;
   }
-  
+
   .link:hover {
     text-decoration: underline;
   }
@@ -75,11 +75,21 @@
     }
 
     .link {
-      font-size: 1em; 
+      font-size: 1em;
     }
 
     .icon {
       display: none;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .link {
+      color: #e4e4e4;
+    }
+
+    .navigation {
+      box-shadow: 0 2px 0 0 #f5f5f54f;
     }
   }
 </style>
