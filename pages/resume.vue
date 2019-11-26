@@ -65,7 +65,15 @@
       </div>
 
       <div class="section">
-        <h1>Education</h1>
+        <h1>Education & Courses</h1>
+
+        <div class="block">
+          <h3>Certified SCRUM Product Owner</h3>
+          <p class="date">November 2019</p>
+          <p>
+            Course on managing a product and it's backlog for a SCRUM team.
+          </p>
+        </div>
 
         <div class="block">
           <h3>Waterford Kamhlaba UWCSA, Swaziland</h3>
