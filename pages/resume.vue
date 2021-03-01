@@ -119,7 +119,7 @@
 
         <div class="block">
           <h3>Treasurer at ÅUF</h3>
-          <p class="date">February 2019 - present</p>
+          <p class="date">February 2019 - February 2021</p>
           <p>
             Overseeing the finances at <a href="http://aauf.dk/">Aarhus Ungdommens Fællesråd</a>.
           </p>
