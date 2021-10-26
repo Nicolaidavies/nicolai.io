@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer">&copy; Nicolai Davies 2020. Made in Aarhus, Denmark.</footer>
+  <footer class="footer">&copy; Nicolai Davies 2021. Made in Aarhus, Denmark.</footer>
 </template>
 <style scoped>
 .footer {

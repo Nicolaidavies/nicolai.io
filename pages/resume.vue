@@ -110,8 +110,16 @@
         <h1>Volunteer Experience</h1>
 
         <div class="block">
+          <h3>Homeguard</h3>
+          <p class="date">September 2021 - Present</p>
+          <p>
+            Member of an infantry company at the Danish Homeguard (Hjemmeværnet).
+          </p>
+        </div>
+
+        <div class="block">
           <h3>Scout leader in KFUM Åbyhøj</h3>
-          <p class="date">September 2019 - present</p>
+          <p class="date">September 2019 - September 2021</p>
           <p>
             Plan and attend the weekly scout meetings as well the camps in the <a href="http://aabyhoejgruppe.gruppesite.dk/">Åbyhøj group</a>.
           </p>
@@ -143,7 +151,7 @@
 
         <div class="block">
           <h3>Cornerstone Help Centre</h3>
-          <p class="date">February 2015 - present</p>
+          <p class="date">February 2015 - January 2021</p>
           <p>
             Helping out at a school for disabled children in Swaziland.
             After moving back to Denmark I've helped establed Cornerstone Team Denmark, where we raise funds for the school in Swaziland.
