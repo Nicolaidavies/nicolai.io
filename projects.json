@@ -1,5 +1,22 @@
 [
   {
+    "name": "grundfos",
+    "title": "Grundfos BuildingConnect",
+    "short_description": "Intelligent building management system.",
+    "image": "index.png",
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ],
+    "description": "<p>Grundfos wanted help from Trifork in creating their own building management system: <a href=\"https://product-selection.grundfos.com/products/building-connect\" target=\"_blank\">Grundfos BuildingConnect.</a></p><p>I was part of the first three man team that joined the existing BuildingConnect team in April 2019. Grundfos had already built a box, with their own control software, but needed help with setting up a cloud platform. Our first achievement was getting the box connected to an IoThub, storing the data in a simple SQL and presenting it in a frontend that had a dashboard and schematic. The entire thing was protected behind Grundfos Global Login. We managed to get this up and running in two-three weeks time. </p><p>A question quickly arose: How were we going to commission our installations? The tricky thing about plantrooms is that they are all different. We needed to capture the complexity of the installation, so we could build a box with the right IO modules to connect to all the pumps, temperature sensors, valves and other equipment that might be in the plantroom. Furthermore we needed to create a manual, a bill of materials and importantly for the end customer: A visual representation of what the plantroom looked like. We discussed many possibilities but in the end we decided to come up with a smart configuration tool that was nicknamed Dumbledore.</p><p>Dumbledore is a visual drag and drop editor that allows the service technician to drag equipment and applications onto a canvas, and connect the pipes in between them, to create a digital twin of the plantroom. The technician must answer questions about the plantroom, and this is then used to create a datamodel that is used for sending data, and mapping relationships between equipment. The Dumbledore schematic editor is one of my proudest achievements on this project. I built the initial version using Canvas, this worked well, but had several limitations: It was hard to test as there weren’t any DOM elements to look for, the Canvas api is a bit quirky and lastly we couldn’t guarantee what the end result would look like on different devices. During a summer holiday it was rewritten to React and SVG, as SVG is a very reliable technology that solved the issues I had with Canvas.</p><p>The scope of the project quickly increased to include remote control, alarms and looking into data in a more detailed way using trend graphs and energy management dashboards. During the course of development, our platform was seen as a potential host for the new Grundfos MIXIT product, a smarter mixing loop. Two months later we had successfully onboarded the first MIXIT device and were displaying data for it on a new dashboard we built for it. </p><p>My role in this project has primary been frontend development, with the occasional need for backend development. Our frontends were built in Angular, the schematic editor was built using React and SVG and the backend was written in .NET. The technology was not the only thing we helped with. Grundfos had just started a digital transformation, and they were transitioning into working in an agile way using SCRUM. A big part of the project was assisting the Grundfos team with our own experiences from working in an agile way.</p>",
+    "client": "Grundfos (Trifork)",
+    "role": "Front-end development, back-end development, UI design, SCRUM",
+    "tools": "Angular, React, .NET",
+    "year": "2019 - now"
+  },
+  {
     "name": "disarm",
     "title": "DiSARM",
     "short_description": "A spatial intelligence tool, built to enable disease control programs to deliver more effective field campaigns.",
