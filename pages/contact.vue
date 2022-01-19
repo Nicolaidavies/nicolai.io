@@ -5,9 +5,9 @@
       Do you have something I need to hear about? Or do you just want to say hi?
     </p>
     <p class="paragraph">
-      Write to me on: 
+      Write to me on:
       <no-ssr>
-        <a href="mailto:hi@nicolai.io"><b>hi@nicolai.io</b></a>
+        <b>hi at nicolai.io</b>
       </no-ssr>
     </p>
   </div>
