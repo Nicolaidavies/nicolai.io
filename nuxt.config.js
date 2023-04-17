@@ -14,7 +14,10 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-    ]
+    ],
+    script: [
+      { src: "https://beamanalytics.b-cdn.net/beam.min.js", "data-token": "2e471d58-aec0-4a7c-a32c-be4b305582c9", async: true }
+    ] 
   },
   /*
   ** Customize the progress bar color
@@ -23,9 +26,6 @@ module.exports = {
   modules: [
     '@nuxtjs/pwa',
     '@nuxtjs/sitemap',
-    ['@nuxtjs/google-analytics', {
-      id: 'UA-120569763-1'
-    }],
     ['nuxt-robots-module', {
       UserAgent: '*',
       Disallow: ''
