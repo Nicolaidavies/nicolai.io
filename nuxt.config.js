@@ -10,7 +10,10 @@ module.exports = {
     title: 'Nicolai Davies',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { script: [
+        { src: "https://beamanalytics.b-cdn.net/beam.min.js", "data-token": "2e471d58-aec0-4a7c-a32c-be4b305582c9", async: true, }
+      ] }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -23,9 +26,6 @@ module.exports = {
   modules: [
     '@nuxtjs/pwa',
     '@nuxtjs/sitemap',
-    ['@nuxtjs/google-analytics', {
-      id: 'UA-120569763-1'
-    }],
     ['nuxt-robots-module', {
       UserAgent: '*',
       Disallow: ''
