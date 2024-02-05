@@ -1,5 +1,19 @@
 [
   {
+    "name": "legohouse",
+    "title": "LEGO House®",
+    "short_description": "Cloud first digital and physical experinces",
+    "image": "index.png",
+    "images": [
+      "index.png"
+    ],
+    "description": "<p><a href=\"https://legohouse.com\">LEGO House®</a> is the ultimate LEGO® Experience mixing physical play with digital experiences. The House was built in 2017 and consists of a number of experiences. Unfortunately many of these experiences were not able to be updated, and more importantly each experience operated independently. This meant there were a lot of technical details that were specific to each experience.</p><p>Trifork was tasked with rebuilding all the experiences in the house ensuring they were built in a similarly, as a way of establishing a new platform and taking a cloud first approach. We organised ourselves into smaller teams, each tasked with rebuilding a separate experience. I became the tech lead for a team of developers. My responsibilities included stakeholder management, technical alignment with the rest of the Trifork team across the various experiences, occasionally wearing the scrum master hat and of course development on the product itself.</p><p>This new team began work on Story Lab. Story Lab is a stop-motion experience, where guests can choose a scene and create a movie from scratch by moving Minifigures, taking pictures, adding effects and a sound track. In 3 months the team managed to rebuild the Story Lab experience from scratch, becoming the first experience on our new platform as part of the rebuild. </p><p>The tech stack consists of a number of Azure products, .NET  services deployed to a Kubernetes cluster, Github actions for testing and deploying, a messaging bus for streamlining the traffic and some really cool tech to stitch the movies together. Much of the tech was converted into platform components, ready to be used by the other teams working on different experiences. </p><p>3 weeks after launching we observed that 4.500 guests had taken 130.000 pictures resulting in over 17 hours of continuous stop-motion movies. Work has already begun on the next experience, which I hope we can showcase soon.</p>",
+    "client": "LEGO House® (Trifork)",
+    "role": "Tech Lead",
+    "tools": "Kubernetes, Azure, .NET, React, RabbitMQ, Github",
+    "year": "2023 - now"
+  },
+  {
     "name": "nykredit",
     "title": "Nykredit",
     "short_description": "Salesforce & Storybook integration",
