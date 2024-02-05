@@ -7,11 +7,11 @@
       </div>
 
       <p class="paragraph">
-        I'm <b>Nicolai Davies</b>, a software developer specialising in mobile and web applications.
+        I'm <b>Nicolai Davies</b>, a full stack software developer with a strong interest in building digital products.
         
         <br><br>
 
-        Right now I am working on some really cool projects at <a href="https://trifork.com/"><b>Trifork</b></a> .
+        Right now I am working as a Tech Lead on some really cool projects at <a href="https://trifork.com/"><b>Trifork</b></a> .
 
         <br><br>
       </p>
@@ -27,7 +27,7 @@ export default {
     return {
       title: "Nicolai Davies",
       meta: [
-        { hid: 'description', name: 'description', content: "I'm Nicolai Davies, a software developer specialising in mobile and web applications." }
+        { hid: 'description', name: 'description', content: "I'm Nicolai Davies, a full stack software developer with a strong interest in building digital products." }
       ]
     };
   }
