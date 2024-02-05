@@ -1,5 +1,19 @@
 [
   {
+    "name": "nykredit",
+    "title": "Nykredit",
+    "short_description": "Salesforce & Storybook integration",
+    "image": "index.png",
+    "images": [
+      "index.png"
+    ],
+    "description": "<p>I was responsible for creating better tools for frontend development for the developers at Nykredit working with internal Salesforce applications, as part of a team at Trifork helping them with their Salesforce projects.</p><p>Salesforce uses a proprietary backend language (<a href=\"https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_intro_what_is_apex.htm\">Apex</a>) as well as a frontend framework: <a href=\"https://developer.salesforce.com/docs/platform/lwc/guide/get-started-oss.html\">Lightning</a> that thankfully was open sourced. The overall development experience when creating salesforce applications was sub par, when compared to most modern development. Essentially any minor change would require an entire build and deployment of the given app, just to see the results. In other words local development was not really possible.</p><p>A more modern approach was chosen, and I was tasked with creating a Storybook integration for the Lightning framework. Storybook does allow integrations with various web frameworks, but the documentation at the time was very limited. This required some digging in the implementation of Storybook to figure out a way forward.</p><p>In the end I managed to complete the integration with support for the MDX format, allowing the developers at Nykredit to speed up their local development significantly, as well as documenting their components at the same time. They were now able to write a Storybook story for page, container or just a single component, when developing their applications. </p><p>The first project it was used on was a new car loan calculator for electric vehicles. With the new storybook setup, we first created a component library with a number of components, that came in different configurations. At the same time, we started working on the entire flow, with various pages and containers specific to this new calculator. The ability to preview changes live while developing increased the overall developer experience significantly.</p>",
+    "client": "Nykredit (Trifork)",
+    "role": "Front-end development",
+    "tools": "StoryBook, React, Salesforce, Lightning",
+    "year": "2022 - 2023"
+  },
+  {
     "name": "grundfos",
     "title": "Grundfos BuildingConnect",
     "short_description": "Intelligent building management system.",
@@ -14,7 +28,7 @@
     "client": "Grundfos (Trifork)",
     "role": "Front-end development, back-end development, UI design, SCRUM",
     "tools": "Angular, React, .NET",
-    "year": "2019 - now"
+    "year": "2019 - 2022"
   },
   {
     "name": "disarm",
