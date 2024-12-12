@@ -11,7 +11,7 @@
         
         <br><br>
 
-        Right now I am working as a Tech Lead on some really cool projects at <a href="https://trifork.com/"><b>Trifork</b></a> .
+        Right now I am working as a software developer on EV charging infrastructure at <a href="https://www.ok.dk/"><b>OK</b></a> .
 
         <br><br>
       </p>
