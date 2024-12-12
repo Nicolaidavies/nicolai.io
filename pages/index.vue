@@ -8,11 +8,8 @@
 
       <p class="paragraph">
         I'm <b>Nicolai Davies</b>, a full stack software developer with a strong interest in building digital products.
-        
         <br><br>
-
-        Right now I am working as a software developer on EV charging infrastructure at <a href="https://www.ok.dk/"><b>OK</b></a> .
-
+        I am currently working on EV charging infrastructure at <a href="https://www.ok.dk/"><b>OK a.m.b.a.</b></a>
         <br><br>
       </p>
 
