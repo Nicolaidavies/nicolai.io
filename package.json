@@ -15,7 +15,7 @@
     "@nuxtjs/moment": "^1.0.0",
     "@nuxtjs/pwa": "^2.0.5",
     "@nuxtjs/sitemap": "^0.1.1",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "nuxt-robots-module": "^1.2.0",
     "vue": "^2.5.13",
     "vue-carousel": "^0.6.5",
