@@ -14,8 +14,24 @@
         <h1>Work Experience</h1>
 
         <div class="block">
+          <h3>Advanced Software Engineer at Terma</h3>
+          <p class="date">July 2025 - now</p>
+          <p>
+            Working in the Terma Accelerator.
+          </p>
+        </div>
+        
+        <div class="block">
+          <h3>Senior Software developer at OK</h3>
+          <p class="date">September 2024 - June 2025</p>
+          <p>
+            Working on EV charging infrastructure.
+          </p>
+        </div>
+        
+        <div class="block">
           <h3>Software developer at Trifork</h3>
-          <p class="date">January 2019 - present</p>
+          <p class="date">January 2019 - August 2024</p>
           <p>
             Working on a variety of products from consumer mobile apps to software for healthcare.
           </p>
